@@ -1,0 +1,27 @@
+{{- range $i := until (int .Values.services) }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-{{ printf "%02d" $i }}
+  labels: { app: "svc-{{ printf "%02d" $i }}", layer: service }
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: "svc-{{ printf "%02d" $i }}" }
+  template:
+    metadata:
+      labels: { app: "svc-{{ printf "%02d" $i }}", layer: service }
+    spec:
+{{ include "range.podTemplate" (dict "root" $) }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-{{ printf "%02d" $i }}
+spec:
+  selector: { app: "svc-{{ printf "%02d" $i }}" }
+  ports:
+    - port: 8080
+      targetPort: 8080
+---
+{{- end }}

@@ -1,0 +1,1444 @@
+{
+  "runs": {
+    "llm_recurring_A0D0_s100": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s100_01230545f2dc5c0a",
+      "asr": 0.4,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 38.0
+    },
+    "llm_recurring_A0D0_s110": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s110_46c564cc6c802e89",
+      "asr": 0.4,
+      "dr": 0.5,
+      "elapsed_min": 66.3
+    },
+    "llm_recurring_A0D0_s120": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s120_1a91ecbed704e545",
+      "asr": 0.5,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 55.3
+    },
+    "llm_recurring_A0D0_s130": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s130_55fa7a7bab5b2e0b",
+      "asr": 0.3333333333333333,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 69.2
+    },
+    "llm_recurring_A0D0_s140": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s140_72057ce60b88a8fc",
+      "asr": 0.36666666666666664,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 58.6
+    },
+    "llm_recurring_A0D0_s150": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s150_510d68e696569b92",
+      "asr": 0.3333333333333333,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 47.9
+    },
+    "llm_recurring_A0D0_s160": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s160_7be4272c8a4f0741",
+      "asr": 0.3333333333333333,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 47.3
+    },
+    "llm_recurring_A0D0_s170": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s170_9c6ca1b130a3676d",
+      "asr": 0.43333333333333335,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 42.9
+    },
+    "llm_recurring_A0D0_s180": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s180_1d2f71ebe9ed7802",
+      "asr": 0.3333333333333333,
+      "dr": 0.3,
+      "elapsed_min": 53.9
+    },
+    "llm_recurring_A0D0_s190": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s190_e9525bfe910abb67",
+      "asr": 0.36666666666666664,
+      "dr": 0.4,
+      "elapsed_min": 44.5
+    },
+    "llm_recurring_A0D0_s200": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s200_34053c7dc93f4067",
+      "asr": 0.4,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 51.0
+    },
+    "llm_recurring_A0D0_s210": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s210_43bfa6cf974aa7f9",
+      "asr": 0.43333333333333335,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 59.2
+    },
+    "llm_recurring_A0D0_s220": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s220_e53b912cc32d5c1d",
+      "asr": 0.43333333333333335,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 58.6
+    },
+    "llm_recurring_A0D0_s230": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s230_bd1c43adabd663d1",
+      "asr": 0.26666666666666666,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 60.0
+    },
+    "llm_recurring_A0D0_s240": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s240_ba4bb1b1d7510b1e",
+      "asr": 0.5,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 41.7
+    },
+    "llm_recurring_A0D0_s250": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s250_555e4a06f282e11e",
+      "asr": 0.4,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 53.7
+    },
+    "llm_recurring_A0D0_s260": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s260_1009352e61fe792b",
+      "asr": 0.3333333333333333,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 54.9
+    },
+    "llm_recurring_A0D0_s270": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s270_a99b25c2d4487cf5",
+      "asr": 0.4666666666666667,
+      "dr": 0.5,
+      "elapsed_min": 43.2
+    },
+    "llm_recurring_A0D0_s280": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s280_8716dfa8b7ef29f7",
+      "asr": 0.43333333333333335,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 20.2
+    },
+    "llm_recurring_A0D0_s290": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D0_s290_0662e79fad493ecf",
+      "asr": 0.5,
+      "dr": 0.5,
+      "elapsed_min": 19.7
+    },
+    "llm_recurring_A0D1_s100": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s100_085208ac6e73e1b4",
+      "asr": 0.3333333333333333,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 20.9
+    },
+    "llm_recurring_A0D1_s110": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s110_764c57923101979b",
+      "asr": 0.3333333333333333,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 20.9
+    },
+    "llm_recurring_A0D1_s120": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s120_06616557dd61241c",
+      "asr": 0.36666666666666664,
+      "dr": 0.5,
+      "elapsed_min": 21.0
+    },
+    "llm_recurring_A0D1_s130": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s130_b96c273032b4532c",
+      "asr": 0.4,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 20.7
+    },
+    "llm_recurring_A0D1_s140": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s140_e2191dc78fba7bce",
+      "asr": 0.3333333333333333,
+      "dr": 0.7666666666666667,
+      "elapsed_min": 21.6
+    },
+    "llm_recurring_A0D1_s150": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s150_955996eb5c0f5b47",
+      "asr": 0.3333333333333333,
+      "dr": 0.36666666666666664,
+      "elapsed_min": 21.1
+    },
+    "llm_recurring_A0D1_s160": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s160_ac7ff846b77000df",
+      "asr": 0.3,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 20.8
+    },
+    "llm_recurring_A0D1_s170": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s170_a3d246337c2cef50",
+      "asr": 0.5666666666666667,
+      "dr": 0.5,
+      "elapsed_min": 20.4
+    },
+    "llm_recurring_A0D1_s180": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s180_3209add4dac2facb",
+      "asr": 0.16666666666666666,
+      "dr": 0.26666666666666666,
+      "elapsed_min": 31.8
+    },
+    "llm_recurring_A0D1_s190": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s190_659bd7386fe8ab7e",
+      "asr": 0.4,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 49.9
+    },
+    "llm_recurring_A0D1_s200": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s200_ee12b15d9775df16",
+      "asr": 0.4,
+      "dr": 0.6,
+      "elapsed_min": 48.4
+    },
+    "llm_recurring_A0D1_s210": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s210_9c0b3433a892ef1e",
+      "asr": 0.26666666666666666,
+      "dr": 0.4,
+      "elapsed_min": 43.4
+    },
+    "llm_recurring_A0D1_s220": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s220_54dd395186096bbe",
+      "asr": 0.3333333333333333,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 50.7
+    },
+    "llm_recurring_A0D1_s230": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s230_94266c4dd19fbad1",
+      "asr": 0.26666666666666666,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 51.3
+    },
+    "llm_recurring_A0D1_s240": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s240_152b5bdf23a18a28",
+      "asr": 0.4666666666666667,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 53.8
+    },
+    "llm_recurring_A0D1_s250": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s250_3079085c28ff8f0f",
+      "asr": 0.36666666666666664,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 52.4
+    },
+    "llm_recurring_A0D1_s260": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s260_76601832f6060db0",
+      "asr": 0.3333333333333333,
+      "dr": 0.5,
+      "elapsed_min": 48.9
+    },
+    "llm_recurring_A0D1_s270": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s270_4665ac6c7c9de380",
+      "asr": 0.3333333333333333,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 46.2
+    },
+    "llm_recurring_A0D1_s280": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s280_4d7e808b91824e8b",
+      "asr": 0.3333333333333333,
+      "dr": 0.6,
+      "elapsed_min": 44.8
+    },
+    "llm_recurring_A0D1_s290": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A0D1_s290_f907881dda03b86c",
+      "asr": 0.23333333333333334,
+      "dr": 0.6666666666666666,
+      "elapsed_min": 44.7
+    },
+    "llm_recurring_A1D0_s100": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s100_fd5dfec19791298e",
+      "asr": 0.3,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 44.6
+    },
+    "llm_recurring_A1D0_s110": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s110_0fbf4dbc006d8aec",
+      "asr": 0.16666666666666666,
+      "dr": 0.5,
+      "elapsed_min": 40.9
+    },
+    "llm_recurring_A1D0_s120": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s120_e6f49779ae519597",
+      "asr": 0.3,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 42.2
+    },
+    "llm_recurring_A1D0_s130": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s130_0cd0dd89603b48a5",
+      "asr": 0.16666666666666666,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 50.1
+    },
+    "llm_recurring_A1D0_s140": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s140_4788111145eac417",
+      "asr": 0.2,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 54.0
+    },
+    "llm_recurring_A1D0_s150": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s150_2c63d83864f73e5a",
+      "asr": 0.1,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 59.9
+    },
+    "llm_recurring_A1D0_s160": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s160_de1d50ddd3e2ce9d",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 67.4
+    },
+    "llm_recurring_A1D0_s170": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s170_e3a82805083b6a54",
+      "asr": 0.3,
+      "dr": 0.5,
+      "elapsed_min": 52.1
+    },
+    "llm_recurring_A1D0_s180": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s180_06ff334015a57db6",
+      "asr": 0.13333333333333333,
+      "dr": 0.4,
+      "elapsed_min": 42.1
+    },
+    "llm_recurring_A1D0_s190": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s190_0f536e2913b39cbc",
+      "asr": 0.2,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 44.5
+    },
+    "llm_recurring_A1D0_s200": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s200_1dc2b5579d8193c4",
+      "asr": 0.23333333333333334,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 51.9
+    },
+    "llm_recurring_A1D0_s210": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s210_04e73809d10318a1",
+      "asr": 0.3,
+      "dr": 0.5,
+      "elapsed_min": 58.2
+    },
+    "llm_recurring_A1D0_s220": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s220_617b91ac78bdd619",
+      "asr": 0.3,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 60.4
+    },
+    "llm_recurring_A1D0_s230": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s230_de8b1c672730ccb5",
+      "asr": 0.3,
+      "dr": 0.6,
+      "elapsed_min": 48.6
+    },
+    "llm_recurring_A1D0_s240": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s240_26b1848690b44c4c",
+      "asr": 0.13333333333333333,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 41.0
+    },
+    "llm_recurring_A1D0_s250": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s250_d604e29c05f444c0",
+      "asr": 0.23333333333333334,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 41.3
+    },
+    "llm_recurring_A1D0_s260": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s260_51a1ad76ce1a24f6",
+      "asr": 0.1,
+      "dr": 0.36666666666666664,
+      "elapsed_min": 47.4
+    },
+    "llm_recurring_A1D0_s270": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s270_ccde5a437d334bda",
+      "asr": 0.4666666666666667,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 41.1
+    },
+    "llm_recurring_A1D0_s280": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s280_ce2927183f0f9851",
+      "asr": 0.1,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 40.2
+    },
+    "llm_recurring_A1D0_s290": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D0_s290_8cb1e8963cbba36a",
+      "asr": 0.36666666666666664,
+      "dr": 0.5,
+      "elapsed_min": 41.3
+    },
+    "llm_recurring_A1D1_s100": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s100_6dc0bc2bebd3a4b3",
+      "asr": 0.13333333333333333,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 42.9
+    },
+    "llm_recurring_A1D1_s110": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s110_5bad23adce018c93",
+      "asr": 0.03333333333333333,
+      "dr": 0.6,
+      "elapsed_min": 45.3
+    },
+    "llm_recurring_A1D1_s120": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s120_55dc380aeeace129",
+      "asr": 0.16666666666666666,
+      "dr": 0.6,
+      "elapsed_min": 46.3
+    },
+    "llm_recurring_A1D1_s130": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s130_c1663cd96fdb0958",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 50.1
+    },
+    "llm_recurring_A1D1_s140": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s140_57bed36a315aa844",
+      "asr": 0.13333333333333333,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 51.2
+    },
+    "llm_recurring_A1D1_s150": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s150_dba085aec823cb1b",
+      "asr": 0.1,
+      "dr": 0.5,
+      "elapsed_min": 50.6
+    },
+    "llm_recurring_A1D1_s160": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s160_948eb0db26905341",
+      "asr": 0.06666666666666667,
+      "dr": 0.6,
+      "elapsed_min": 58.7
+    },
+    "llm_recurring_A1D1_s170": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s170_74b2bac1a3c537dc",
+      "asr": 0.13333333333333333,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 63.0
+    },
+    "llm_recurring_A1D1_s180": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s180_75b17e6631ed374e",
+      "asr": 0.06666666666666667,
+      "dr": 0.5,
+      "elapsed_min": 65.7
+    },
+    "llm_recurring_A1D1_s190": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s190_f79c882727cf678e",
+      "asr": 0.13333333333333333,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 64.3
+    },
+    "llm_recurring_A1D1_s200": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s200_5789cfec4c586a4e",
+      "asr": 0.06666666666666667,
+      "dr": 0.5,
+      "elapsed_min": 64.2
+    },
+    "llm_recurring_A1D1_s210": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s210_a5dec787364d1464",
+      "asr": 0.16666666666666666,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 62.3
+    },
+    "llm_recurring_A1D1_s220": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s220_0056cd28270ffb2d",
+      "asr": 0.13333333333333333,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 51.9
+    },
+    "llm_recurring_A1D1_s230": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s230_1e166f32ff6fe5ab",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 49.3
+    },
+    "llm_recurring_A1D1_s240": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s240_99257a9c99aa4768",
+      "asr": 0.2,
+      "dr": 0.6,
+      "elapsed_min": 48.7
+    },
+    "llm_recurring_A1D1_s250": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s250_0455110bbc9c0737",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 51.9
+    },
+    "llm_recurring_A1D1_s260": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s260_bb0d8d02d99bdeda",
+      "asr": 0.06666666666666667,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 51.2
+    },
+    "llm_recurring_A1D1_s270": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s270_34639da36257c002",
+      "asr": 0.16666666666666666,
+      "dr": 0.5,
+      "elapsed_min": 57.3
+    },
+    "llm_recurring_A1D1_s280": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s280_a2f03c7bb5f0ba78",
+      "asr": 0.3333333333333333,
+      "dr": 0.7333333333333333,
+      "elapsed_min": 53.8
+    },
+    "llm_recurring_A1D1_s290": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "recurring",
+      "run_dir": "runs/review/llm2x2/llm_recurring_A1D1_s290_79ff6ce41e025e48",
+      "asr": 0.23333333333333334,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 53.0
+    },
+    "llm_iid_A0D0_s100": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s100_4f15ec22495b9ba8",
+      "asr": 0.3,
+      "dr": 0.4,
+      "elapsed_min": 20.0
+    },
+    "llm_iid_A0D0_s110": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s110_3c2079874b167bfc",
+      "asr": 0.26666666666666666,
+      "dr": 0.4,
+      "elapsed_min": 20.2
+    },
+    "llm_iid_A0D0_s120": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s120_f27ff58d5734af98",
+      "asr": 0.5666666666666667,
+      "dr": 0.6,
+      "elapsed_min": 25.2
+    },
+    "llm_iid_A0D0_s130": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s130_83bbe89eef1bf8df",
+      "asr": 0.43333333333333335,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 25.6
+    },
+    "llm_iid_A0D0_s140": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s140_1d9e7a809e8751cc",
+      "asr": 0.6333333333333333,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 24.0
+    },
+    "llm_iid_A0D0_s150": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s150_cd7856cba117200c",
+      "asr": 0.36666666666666664,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 27.1
+    },
+    "llm_iid_A0D0_s160": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s160_75c7ef0c6cffa4a3",
+      "asr": 0.4,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 26.4
+    },
+    "llm_iid_A0D0_s170": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s170_00711127b3843ec1",
+      "asr": 0.3333333333333333,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 26.4
+    },
+    "llm_iid_A0D0_s180": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s180_2f4d8bdf93665eb3",
+      "asr": 0.23333333333333334,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 26.9
+    },
+    "llm_iid_A0D0_s190": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s190_6aab0bebb0415510",
+      "asr": 0.5,
+      "dr": 0.5,
+      "elapsed_min": 25.6
+    },
+    "llm_iid_A0D0_s200": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s200_fd506e0d6f1686a6",
+      "asr": 0.43333333333333335,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 25.3
+    },
+    "llm_iid_A0D0_s210": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s210_338a6bbcc1c7e310",
+      "asr": 0.5,
+      "dr": 0.5,
+      "elapsed_min": 25.4
+    },
+    "llm_iid_A0D0_s220": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s220_95e65cd0a09183a8",
+      "asr": 0.43333333333333335,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 26.7
+    },
+    "llm_iid_A0D0_s230": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s230_29a306d3b2911044",
+      "asr": 0.36666666666666664,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 28.2
+    },
+    "llm_iid_A0D0_s240": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s240_1fa7a700ac01c5c9",
+      "asr": 0.43333333333333335,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 28.5
+    },
+    "llm_iid_A0D0_s250": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s250_8c82cdf541844163",
+      "asr": 0.4,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 29.6
+    },
+    "llm_iid_A0D0_s260": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s260_5bb129309fbfc2d5",
+      "asr": 0.43333333333333335,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 28.3
+    },
+    "llm_iid_A0D0_s270": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s270_642649cb169eedb9",
+      "asr": 0.4,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 28.5
+    },
+    "llm_iid_A0D0_s280": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s280_b427be084d4e68bd",
+      "asr": 0.4,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 28.5
+    },
+    "llm_iid_A0D0_s290": {
+      "status": "ok",
+      "cell": "A0D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D0_s290_b5efcce18d2e2183",
+      "asr": 0.5,
+      "dr": 0.6,
+      "elapsed_min": 28.6
+    },
+    "llm_iid_A0D1_s100": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s100_c0a4acabc33643de",
+      "asr": 0.26666666666666666,
+      "dr": 0.4,
+      "elapsed_min": 30.5
+    },
+    "llm_iid_A0D1_s110": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s110_fc42af0ae56d4505",
+      "asr": 0.3333333333333333,
+      "dr": 0.5,
+      "elapsed_min": 29.9
+    },
+    "llm_iid_A0D1_s120": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s120_ccb270214b1af6d5",
+      "asr": 0.36666666666666664,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 30.2
+    },
+    "llm_iid_A0D1_s130": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s130_871457f282c57e67",
+      "asr": 0.43333333333333335,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 29.5
+    },
+    "llm_iid_A0D1_s140": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s140_b606c31baee3160e",
+      "asr": 0.43333333333333335,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 34.8
+    },
+    "llm_iid_A0D1_s150": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s150_696a8e758596ba10",
+      "asr": 0.36666666666666664,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 46.0
+    },
+    "llm_iid_A0D1_s160": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s160_97559b35ef3dc832",
+      "asr": 0.43333333333333335,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 46.5
+    },
+    "llm_iid_A0D1_s170": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s170_ed83a614fbcc8d08",
+      "asr": 0.23333333333333334,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 39.8
+    },
+    "llm_iid_A0D1_s180": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s180_dae8e001fea9cefd",
+      "asr": 0.3,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 30.5
+    },
+    "llm_iid_A0D1_s190": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s190_329fd28092ea5a99",
+      "asr": 0.4,
+      "dr": 0.7,
+      "elapsed_min": 50.5
+    },
+    "llm_iid_A0D1_s200": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s200_3ed23230c571175a",
+      "asr": 0.4666666666666667,
+      "dr": 0.6,
+      "elapsed_min": 169.8
+    },
+    "llm_iid_A0D1_s210": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s210_2556193f5cc1c8e6",
+      "asr": 0.4,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 171.5
+    },
+    "llm_iid_A0D1_s220": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s220_62275c3c2cecdd3b",
+      "asr": 0.3,
+      "dr": 0.6666666666666666,
+      "elapsed_min": 341.8
+    },
+    "llm_iid_A0D1_s230": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s230_cdf585b9d0501620",
+      "asr": 0.3,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 168.2
+    },
+    "llm_iid_A0D1_s240": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s240_bb5dd3fd917ab2a6",
+      "asr": 0.26666666666666666,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 47.0
+    },
+    "llm_iid_A0D1_s250": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s250_215c40daa6073431",
+      "asr": 0.4,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 47.0
+    },
+    "llm_iid_A0D1_s260": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s260_9f75167d2f5a7199",
+      "asr": 0.23333333333333334,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 46.4
+    },
+    "llm_iid_A0D1_s270": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s270_44f410055bb712db",
+      "asr": 0.36666666666666664,
+      "dr": 0.6666666666666666,
+      "elapsed_min": 45.4
+    },
+    "llm_iid_A0D1_s280": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s280_670fa94906f45919",
+      "asr": 0.36666666666666664,
+      "dr": 0.5,
+      "elapsed_min": 44.8
+    },
+    "llm_iid_A0D1_s290": {
+      "status": "ok",
+      "cell": "A0D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A0D1_s290_10afb2f347b00e11",
+      "asr": 0.4666666666666667,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 44.3
+    },
+    "llm_iid_A1D0_s100": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s100_31c583350f1085fd",
+      "asr": 0.1,
+      "dr": 0.4,
+      "elapsed_min": 50.0
+    },
+    "llm_iid_A1D0_s110": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s110_18432d87d107582e",
+      "asr": 0.3,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 49.5
+    },
+    "llm_iid_A1D0_s120": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s120_2f1c5cc0697fa247",
+      "asr": 0.23333333333333334,
+      "dr": 0.5,
+      "elapsed_min": 111.5
+    },
+    "llm_iid_A1D0_s130": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s130_b29d6a41e9f87073",
+      "asr": 0.3,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 49.8
+    },
+    "llm_iid_A1D0_s140": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s140_0e72b3ccf214e1a4",
+      "asr": 0.23333333333333334,
+      "dr": 0.5,
+      "elapsed_min": 50.3
+    },
+    "llm_iid_A1D0_s150": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s150_aa2555eec52b5ac8",
+      "asr": 0.16666666666666666,
+      "dr": 0.5,
+      "elapsed_min": 51.3
+    },
+    "llm_iid_A1D0_s160": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s160_b7b00e0cc7ef2328",
+      "asr": 0.3,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 49.4
+    },
+    "llm_iid_A1D0_s170": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s170_6b8d1f13ed7862a1",
+      "asr": 0.2,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 50.3
+    },
+    "llm_iid_A1D0_s180": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s180_1715a61629327c98",
+      "asr": 0.26666666666666666,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 50.1
+    },
+    "llm_iid_A1D0_s190": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s190_3728bc4c42398caa",
+      "asr": 0.36666666666666664,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 26.2
+    },
+    "llm_iid_A1D0_s200": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s200_c34776dae040521b",
+      "asr": 0.23333333333333334,
+      "dr": 0.5,
+      "elapsed_min": 33.5
+    },
+    "llm_iid_A1D0_s210": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s210_9f816b8d0f9daa54",
+      "asr": 0.23333333333333334,
+      "dr": 0.4,
+      "elapsed_min": 32.9
+    },
+    "llm_iid_A1D0_s220": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s220_b286963c4125df7b",
+      "asr": 0.06666666666666667,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 23.3
+    },
+    "llm_iid_A1D0_s230": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s230_52f707199a9a006b",
+      "asr": 0.26666666666666666,
+      "dr": 0.6666666666666666,
+      "elapsed_min": 22.7
+    },
+    "llm_iid_A1D0_s240": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s240_2b9890ab5e4a9988",
+      "asr": 0.3,
+      "dr": 0.4666666666666667,
+      "elapsed_min": 23.5
+    },
+    "llm_iid_A1D0_s250": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s250_548c0cef95d8971a",
+      "asr": 0.2,
+      "dr": 0.4,
+      "elapsed_min": 23.1
+    },
+    "llm_iid_A1D0_s260": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s260_6af24ff0b807039f",
+      "asr": 0.23333333333333334,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 23.7
+    },
+    "llm_iid_A1D0_s270": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s270_198b24765aa450d3",
+      "asr": 0.3333333333333333,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 23.1
+    },
+    "llm_iid_A1D0_s280": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s280_ef916d050e5b36db",
+      "asr": 0.3,
+      "dr": 0.5,
+      "elapsed_min": 23.3
+    },
+    "llm_iid_A1D0_s290": {
+      "status": "ok",
+      "cell": "A1D0",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D0_s290_920cc73dd23962e8",
+      "asr": 0.23333333333333334,
+      "dr": 0.43333333333333335,
+      "elapsed_min": 23.2
+    },
+    "llm_iid_A1D1_s100": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s100_bd92ebe20587e007",
+      "asr": 0.06666666666666667,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 23.6
+    },
+    "llm_iid_A1D1_s110": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s110_16f0da15a837566a",
+      "asr": 0.2,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 23.7
+    },
+    "llm_iid_A1D1_s120": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s120_f6cb69cfd568d8cb",
+      "asr": 0.26666666666666666,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 24.0
+    },
+    "llm_iid_A1D1_s130": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s130_ced6642a3c7b2321",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 23.7
+    },
+    "llm_iid_A1D1_s140": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s140_0efddc89dc6120fd",
+      "asr": 0.23333333333333334,
+      "dr": 0.6,
+      "elapsed_min": 24.4
+    },
+    "llm_iid_A1D1_s150": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s150_9679a791d3c6c04e",
+      "asr": 0.23333333333333334,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 23.6
+    },
+    "llm_iid_A1D1_s160": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s160_51d2dce3b950363e",
+      "asr": 0.2,
+      "dr": 0.6,
+      "elapsed_min": 23.8
+    },
+    "llm_iid_A1D1_s170": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s170_0bd8b227cf3b643c",
+      "asr": 0.03333333333333333,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 23.6
+    },
+    "llm_iid_A1D1_s180": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s180_9ad2c52a496f7160",
+      "asr": 0.2,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 23.8
+    },
+    "llm_iid_A1D1_s190": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s190_4689d59e1d22fd97",
+      "asr": 0.26666666666666666,
+      "dr": 0.6666666666666666,
+      "elapsed_min": 24.2
+    },
+    "llm_iid_A1D1_s200": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s200_3e021a89dff52e17",
+      "asr": 0.1,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 24.0
+    },
+    "llm_iid_A1D1_s210": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s210_68386f250ce5bac6",
+      "asr": 0.2,
+      "dr": 0.5333333333333333,
+      "elapsed_min": 23.9
+    },
+    "llm_iid_A1D1_s220": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s220_956d673b2fb38f40",
+      "asr": 0.1,
+      "dr": 0.6,
+      "elapsed_min": 33.0
+    },
+    "llm_iid_A1D1_s230": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s230_e68b0d60df20327a",
+      "asr": 0.16666666666666666,
+      "dr": 0.7,
+      "elapsed_min": 41.8
+    },
+    "llm_iid_A1D1_s240": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s240_931559de08bed2f5",
+      "asr": 0.3,
+      "dr": 0.7666666666666667,
+      "elapsed_min": 40.2
+    },
+    "llm_iid_A1D1_s250": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s250_45a5a2fb573c5e67",
+      "asr": 0.16666666666666666,
+      "dr": 0.5,
+      "elapsed_min": 41.8
+    },
+    "llm_iid_A1D1_s260": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s260_c31dbc21d99b12bf",
+      "asr": 0.1,
+      "dr": 0.6,
+      "elapsed_min": 43.5
+    },
+    "llm_iid_A1D1_s270": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s270_85eefd16cb735a5d",
+      "asr": 0.26666666666666666,
+      "dr": 0.5666666666666667,
+      "elapsed_min": 43.3
+    },
+    "llm_iid_A1D1_s280": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s280_5abb1844131d0ccb",
+      "asr": 0.23333333333333334,
+      "dr": 0.6333333333333333,
+      "elapsed_min": 31.0
+    },
+    "llm_iid_A1D1_s290": {
+      "status": "ok",
+      "cell": "A1D1",
+      "regime": "iid",
+      "run_dir": "runs/review/llm2x2/llm_iid_A1D1_s290_ac5bd7ff613d0e76",
+      "asr": 0.1,
+      "dr": 0.5,
+      "elapsed_min": 27.9
+    }
+  }
+}

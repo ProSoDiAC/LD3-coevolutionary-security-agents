@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "coevsec: When Does Memory Help Adaptive Cyber Agents?"
+type: software
+url: https://github.com/ProSoDiAC/LD3-coevolutionary-security-agents
+license: MIT
+authors:
+  - {family-names: "D'Agati", given-names: Luca}
+  - {family-names: Tricomi, given-names: Giuseppe}
+  - {family-names: Mirto, given-names: Fabio Orazio}
+  - {family-names: Longo, given-names: Francesco}
+  - {family-names: Merlino, given-names: Giovanni}
+preferred-citation:
+  type: conference-paper
+  title: "When Does Memory Help Adaptive Cyber Agents? A Controlled Two-Sided Evaluation of LLM Attackers and Defenders"
+  conference: {name: "ITASEC27: Italian Conference on Cybersecurity"}
+  year: 2027

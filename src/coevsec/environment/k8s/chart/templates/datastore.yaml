@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: datastore
+  labels: { app: datastore, layer: datastore }
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: datastore }
+  template:
+    metadata:
+      labels: { app: datastore, layer: datastore }
+    spec:
+{{ include "range.podTemplate" (dict "root" $) }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: datastore
+spec:
+  selector: { app: datastore }
+  ports:
+    - port: 8080
+      targetPort: 8080

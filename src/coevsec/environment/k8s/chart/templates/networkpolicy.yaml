@@ -1,0 +1,34 @@
+# Pods in the range may talk to each other, except pods the defender has
+# isolated (label coevsec/isolated=true). NetworkPolicies are additive allow
+# lists, so isolation must exclude pods from the allow policy rather than add
+# a deny policy next to it.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-allow-in-namespace
+  labels: { app: range }
+spec:
+  podSelector:
+    matchExpressions:
+      - { key: coevsec/isolated, operator: NotIn, values: ["true"] }
+  policyTypes: [Ingress, Egress]
+  ingress:
+    - from:
+        - podSelector:
+            matchExpressions:
+              - { key: coevsec/isolated, operator: NotIn, values: ["true"] }
+  egress:
+    - to:
+        - podSelector:
+            matchExpressions:
+              - { key: coevsec/isolated, operator: NotIn, values: ["true"] }
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: deny-isolated
+  labels: { app: range }
+spec:
+  podSelector:
+    matchLabels: { coevsec/isolated: "true" }
+  policyTypes: [Ingress, Egress]

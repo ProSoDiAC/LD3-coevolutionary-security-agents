@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gw
+  labels: { app: gw, layer: gateway }
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: gw }
+  template:
+    metadata:
+      labels: { app: gw, layer: gateway }
+    spec:
+{{ include "range.podTemplate" (dict "root" $) }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gw
+spec:
+  selector: { app: gw }
+  ports:
+    - port: 8080
+      targetPort: 8080

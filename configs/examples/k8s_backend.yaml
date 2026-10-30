@@ -1,0 +1,30 @@
+# Example on the Kubernetes backend (game logic stays in the simulator).
+# Default: provision=false so the same game logic runs without a cluster.
+# Set environment.params.provision: true (and install kind) to mirror isolation
+# onto a real kind cluster with Helm-deployed decoy services.
+name: example_k8s_backend
+description: Re-run a 1A-vs-1D persistent match on the K8s environment backend.
+seed: 42
+episodes: 10
+max_turns: 20
+environment:
+  backend: k8s
+  hosts: 3
+  vulnerabilities_per_host: 2
+  params:
+    provision: false
+    cluster_name: coevsec
+    namespace: range
+    delete_cluster: false
+interaction: { topology: none, communication: none }
+agents:
+  - id_prefix: attacker
+    role: attacker
+    adaptation: persistent
+    policy: { kind: heuristic, stealth: 0.3 }
+    encoded_behaviours: [reconnaissance, privilege_escalation, resource_targeting]
+  - id_prefix: defender
+    role: defender
+    adaptation: persistent
+    policy: { kind: heuristic, stealth: 0.4 }
+    encoded_behaviours: [adaptive_monitoring, dynamic_isolation]

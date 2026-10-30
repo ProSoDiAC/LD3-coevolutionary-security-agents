@@ -1,0 +1,46 @@
+[project]
+name = "coevsec"
+version = "0.1.0"
+description = "Factorial evaluation of adaptive attacker and defender cyber agents with declared memory regimes"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Luca D'Agati", email = "ldagati@unime.it" }]
+dependencies = [
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "networkx>=3.2",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "jsonschema>=4.21",
+    "requests>=2.31",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+analysis = ["matplotlib>=3.8", "scipy>=1.11"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+coevsec = "coevsec.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+coevsec = [
+    "environment/k8s/chart/**/*",
+    "environment/k8s/kind-cluster.yaml",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

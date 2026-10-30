@@ -1,0 +1,428 @@
+{
+  "seeds": [
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  ],
+  "episodes": 40,
+  "enforcement": {
+    "before": true,
+    "neighbour_before": true,
+    "isolation_applied": true,
+    "during": false,
+    "outbound_during": false,
+    "neighbour_during": true,
+    "after": true,
+    "enforced": true
+  },
+  "cells": {
+    "static_static": {
+      "runs": [
+        {
+          "seed": 100,
+          "sim": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 121,
+            "hosts_applied": 121,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s100_8a13283631385512",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s100_ca7854d1ef1a6528"
+        },
+        {
+          "seed": 110,
+          "sim": {
+            "asr": 0.025,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.025,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 175,
+            "hosts_applied": 175,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s110_f4807174a2fd9c12",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s110_6f5099150635e234"
+        },
+        {
+          "seed": 120,
+          "sim": {
+            "asr": 0.05,
+            "dr": 0.95
+          },
+          "k8s": {
+            "asr": 0.05,
+            "dr": 0.95
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 159,
+            "hosts_applied": 159,
+            "decoys": 12,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s120_137735c227058f09",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s120_55fd2f00bb12091a"
+        },
+        {
+          "seed": 130,
+          "sim": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 166,
+            "hosts_applied": 166,
+            "decoys": 1,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s130_a889beaff4324bb0",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s130_af0be6ed15c80a97"
+        },
+        {
+          "seed": 140,
+          "sim": {
+            "asr": 0.05,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.05,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 216,
+            "hosts_applied": 216,
+            "decoys": 2,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s140_21ede7813c6233be",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s140_6951699d942f3e12"
+        },
+        {
+          "seed": 150,
+          "sim": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 141,
+            "hosts_applied": 141,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_static_static_sim_s150_f6145660b8b9ccc5",
+          "k8s_run_dir": "runs/k8s/k8s_static_static_k8s_s150_a8885a214404778e"
+        }
+      ],
+      "asr_sim": 0.020833333333333332,
+      "asr_k8s": 0.020833333333333332,
+      "dr_sim": 0.9874999999999999,
+      "dr_k8s": 0.9874999999999999,
+      "all_episodes_identical": true,
+      "isolations": {
+        "hosts": 978,
+        "hosts_applied": 978,
+        "decoys": 15,
+        "decoys_applied": 0
+      }
+    },
+    "adaptive_static": {
+      "runs": [
+        {
+          "seed": 100,
+          "sim": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 121,
+            "hosts_applied": 121,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s100_9190f5698b2f6a7c",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s100_0ee2d6bd803b83d8"
+        },
+        {
+          "seed": 110,
+          "sim": {
+            "asr": 0.025,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.025,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 175,
+            "hosts_applied": 175,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s110_732e616990d17aa2",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s110_328c90a341ed6b69"
+        },
+        {
+          "seed": 120,
+          "sim": {
+            "asr": 0.05,
+            "dr": 0.95
+          },
+          "k8s": {
+            "asr": 0.05,
+            "dr": 0.95
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 159,
+            "hosts_applied": 159,
+            "decoys": 12,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s120_3eca46a6ee4a23d0",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s120_c98d39f179f643b8"
+        },
+        {
+          "seed": 130,
+          "sim": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 165,
+            "hosts_applied": 165,
+            "decoys": 1,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s130_cece4d1056a6a5b9",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s130_3989fbd73de4cf6e"
+        },
+        {
+          "seed": 140,
+          "sim": {
+            "asr": 0.05,
+            "dr": 1.0
+          },
+          "k8s": {
+            "asr": 0.05,
+            "dr": 1.0
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 216,
+            "hosts_applied": 216,
+            "decoys": 2,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s140_022613c5bf26b93c",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s140_2b00dd5713774083"
+        },
+        {
+          "seed": 150,
+          "sim": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 141,
+            "hosts_applied": 141,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_adaptive_static_sim_s150_ff1504801faa1a82",
+          "k8s_run_dir": "runs/k8s/k8s_adaptive_static_k8s_s150_0009a44cdc36fcfa"
+        }
+      ],
+      "asr_sim": 0.020833333333333332,
+      "asr_k8s": 0.020833333333333332,
+      "dr_sim": 0.9874999999999999,
+      "dr_k8s": 0.9874999999999999,
+      "all_episodes_identical": true,
+      "isolations": {
+        "hosts": 977,
+        "hosts_applied": 977,
+        "decoys": 15,
+        "decoys_applied": 0
+      }
+    },
+    "persistent_persistent": {
+      "runs": [
+        {
+          "seed": 100,
+          "sim": {
+            "asr": 0.0,
+            "dr": 0.95
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 0.95
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 86,
+            "hosts_applied": 86,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s100_e0eed56bea3d5207",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s100_ea9e04cb6c189781"
+        },
+        {
+          "seed": 110,
+          "sim": {
+            "asr": 0.025,
+            "dr": 0.975
+          },
+          "k8s": {
+            "asr": 0.025,
+            "dr": 0.975
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 109,
+            "hosts_applied": 109,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s110_7fb45e14dddc7cf3",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s110_8a5f9a7b6326ca88"
+        },
+        {
+          "seed": 120,
+          "sim": {
+            "asr": 0.05,
+            "dr": 0.925
+          },
+          "k8s": {
+            "asr": 0.05,
+            "dr": 0.925
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 129,
+            "hosts_applied": 129,
+            "decoys": 8,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s120_0992d69a3087459c",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s120_302f3191f9045765"
+        },
+        {
+          "seed": 130,
+          "sim": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 0.975
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 89,
+            "hosts_applied": 89,
+            "decoys": 1,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s130_695db4d553e40709",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s130_85efc2c24a4db49a"
+        },
+        {
+          "seed": 140,
+          "sim": {
+            "asr": 0.0,
+            "dr": 0.95
+          },
+          "k8s": {
+            "asr": 0.0,
+            "dr": 0.95
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 181,
+            "hosts_applied": 181,
+            "decoys": 3,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s140_b503c0efec2e165a",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s140_620805964b261791"
+        },
+        {
+          "seed": 150,
+          "sim": {
+            "asr": 0.025,
+            "dr": 0.95
+          },
+          "k8s": {
+            "asr": 0.025,
+            "dr": 0.95
+          },
+          "episodes_identical": true,
+          "isolations": {
+            "hosts": 93,
+            "hosts_applied": 93,
+            "decoys": 0,
+            "decoys_applied": 0
+          },
+          "sim_run_dir": "runs/k8s/k8s_persistent_persistent_sim_s150_fe9c1184e017c5cb",
+          "k8s_run_dir": "runs/k8s/k8s_persistent_persistent_k8s_s150_e1f61c8287c7c9e1"
+        }
+      ],
+      "asr_sim": 0.016666666666666666,
+      "asr_k8s": 0.016666666666666666,
+      "dr_sim": 0.9541666666666666,
+      "dr_k8s": 0.9541666666666666,
+      "all_episodes_identical": true,
+      "isolations": {
+        "hosts": 687,
+        "hosts_applied": 687,
+        "decoys": 12,
+        "decoys_applied": 0
+      }
+    }
+  }
+}

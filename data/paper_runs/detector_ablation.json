@@ -1,0 +1,4203 @@
+{
+  "seeds": [
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  ],
+  "episodes": 40,
+  "cells": {
+    "static_static": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.024579802006254377,
+          "ci95": 0.02579492024695016
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s100_718904cad50f9842"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s110_f1223ce125b560d4"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s120_e8ce9da70c3e7fb4"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s130_3688f58a49252207"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s140_ba4e3e2a8ff3e8aa"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s150_177130c6ca367284"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.125,
+          "std": 0.05477225575051661,
+          "ci95": 0.05747995726208991
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s100_983c2911b292c82c"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s110_dc15361bb0080766"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.15,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s120_427fb99ba2f79a27"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s130_15f50b6db0b030fd"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s140_683475a4412fc4e5"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s150_7ec53d57e67e2bbe"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.025819888974716113,
+          "ci95": 0.027096311708224477
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s100_6e7e2ed4b931e1e3"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s110_8b906f15b2cc60fc"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s120_a81f6ff93c2bbffb"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s130_83c3aabc40441b14"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s140_845936d32dfed244"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s150_810e0e3e7a5b738e"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.012500000000000002,
+          "std": 0.020916500663351892,
+          "ci95": 0.021950521258029473
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s100_d547e39d0575318d"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s110_c3810007d30976f7"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s120_c8228c900563ef10"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s130_fe467df8b6da9c8e"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s140_7baa7ba1692e5bd1"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s150_ed98f445b0d6904f"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.037638632635454056,
+          "ci95": 0.03949932252459761
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s100_96183f94e0cc799d"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s110_f59e62fc2d7dfc93"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s120_60d7395af59da804"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s130_f65872915e03b16b"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s140_21740f952685a62b"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s150_e990e92baeade7f3"
+          }
+        ]
+      },
+      "lambda_very_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.04377975178854566,
+          "ci95": 0.04594403183269978
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s100_3a0ba9a90482bb92"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s110_0d537a7f8e799e0e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s120_9dc5eb8d8d174169"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s130_f9b918d7f11c03f7"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s140_ea68940dba7ef701"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_very_low_s150_8e5e7aea501ba312"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.3333333333333333,
+          "std": 0.054006172486732174,
+          "ci95": 0.05667600218194668
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.325,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s100_d462eb0e1ada8fd9"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s110_4629431d67bd7e3f"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s120_45989fa93f731859"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s130_7d049761edf65726"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s140_88b76f0cfd4c130b"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.275,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s150_582aca88c0fc14d6"
+          }
+        ]
+      },
+      "abandon_failed_hosts": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.024579802006254377,
+          "ci95": 0.02579492024695016
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s100_45c6490b501886f7"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s110_a265e6545df92dd4"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s120_6d402d0cd9279a44"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s130_26345d3452d1bb2e"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s140_8a64592d21c0bfe9"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_abandon_failed_hosts_s150_092ad2a651f7bb88"
+          }
+        ]
+      },
+      "no_investigate": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.08750000000000001,
+          "std": 0.0518411033833193,
+          "ci95": 0.05440390150198758
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s100_49915d4aa2208a9a"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s110_6756a90e11eb28a3"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s120_72c620e6ff3b5e18"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s130_15ae4d791f2b1ae3"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s140_187fb521a99ba1b4"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.1,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_s150_2369fec187179c82"
+          }
+        ]
+      },
+      "no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.02916666666666667,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s100_280882ace52c0645"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s110_77d675e855379477"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s120_88f492cf91b63fe8"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s130_1178fbd471defe4d"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s140_3c549d767c541ec0"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decoy_s150_8088d5e95e370c2a"
+          }
+        ]
+      },
+      "no_investigate_no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9708333333333333,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.09583333333333334,
+          "std": 0.06003471218109293,
+          "ci95": 0.0630025665937365
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s100_f350653e512fe723"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s110_cb4fa9c5cb7ac442"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s120_df19256eae549370"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s130_8b4b68428c45f550"
+          },
+          {
+            "seed": 140,
+            "dr": 0.95,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 0.95,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s140_79b4b0b4a4ec783a"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_static_no_investigate_no_decoy_s150_d61b0ac172702255"
+          }
+        ]
+      }
+    },
+    "adaptive_static": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.024579802006254377,
+          "ci95": 0.02579492024695016
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s100_fde4b5e2ebb13265"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s110_9e9437070f2762fe"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s120_c86ce714e25b0cac"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s130_0692f94fae68879e"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s140_2674e116da0faf3b"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s150_bb877b8b9490fcc2"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.125,
+          "std": 0.05477225575051661,
+          "ci95": 0.05747995726208991
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s100_80604f40b6d5c35b"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s110_6712ec0102203b68"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.15,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s120_0f74b1adc54c41e8"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s130_abc0997bd457faad"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s140_08d2f3f9434bb00e"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s150_85900b0d34ad8d37"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.025819888974716113,
+          "ci95": 0.027096311708224477
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s100_d0e7b93444e14092"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s110_eb7256aa7220d866"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s120_a6a6ef60aadd1f7d"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s130_5ea7261760f97e95"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s140_cfeb222abb7e16d4"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s150_c9bce371bef364dc"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.012500000000000002,
+          "std": 0.020916500663351892,
+          "ci95": 0.021950521258029473
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s100_a4ce8dea2a95d576"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s110_7897435fa8a218ff"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s120_f446605fc2f830b7"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s130_4bf263aacc7bcbd0"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s140_085431e0d4574c78"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s150_88aa67ce2cbe71d9"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.037638632635454056,
+          "ci95": 0.03949932252459761
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s100_e15ab68c5b5819bd"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s110_07fcfe591782bcd3"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s120_eb3adeb5e5f34460"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s130_5e48c68ca49e2852"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s140_9f7bde8d8e0ab7d3"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s150_94e72f473463d39d"
+          }
+        ]
+      },
+      "lambda_very_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.04377975178854566,
+          "ci95": 0.04594403183269978
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s100_8160a746c649d221"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s110_8f5c26ef5a4386b7"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s120_80a3a7a571012d5c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s130_349e2bbd7be53a5a"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s140_7f3c3231e54ca159"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_very_low_s150_9a939f5f5f0c01c5"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.3333333333333333,
+          "std": 0.054006172486732174,
+          "ci95": 0.05667600218194668
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.325,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s100_77a84f321b3e08e3"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s110_7f46d1088bb4a7f5"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s120_a33f546106d7d59c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s130_e104d681738b7358"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s140_6f9deaf0ebf8e485"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.275,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s150_a499bb3ffc1481ea"
+          }
+        ]
+      },
+      "abandon_failed_hosts": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5166666666666667,
+          "std": 0.11902380714238082,
+          "ci95": 0.12490782521132067
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.05833333333333334,
+          "std": 0.04654746681256314,
+          "ci95": 0.04884857061997929
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.5208333333333334,
+          "std": 0.11556022960632548,
+          "ci95": 0.12127302350344107
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.375,
+            "asr": 0.025,
+            "engagement": 0.375,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s100_f87639620cf846c6"
+          },
+          {
+            "seed": 110,
+            "dr": 0.6,
+            "asr": 0.125,
+            "engagement": 0.6,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s110_bd92b1e4a669428c"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.05,
+            "engagement": 0.525,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s120_bce50c1b1f789d6b"
+          },
+          {
+            "seed": 130,
+            "dr": 0.475,
+            "asr": 0.0,
+            "engagement": 0.475,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s130_0250f565481282b1"
+          },
+          {
+            "seed": 140,
+            "dr": 0.7,
+            "asr": 0.1,
+            "engagement": 0.7,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s140_61a6d52df7b59c45"
+          },
+          {
+            "seed": 150,
+            "dr": 0.425,
+            "asr": 0.05,
+            "engagement": 0.45,
+            "dr_engaged": 0.9444444444444444,
+            "run_dir": "runs/ablation/abl_adaptive_static_abandon_failed_hosts_s150_5cc5b56b50f7fe5a"
+          }
+        ]
+      },
+      "no_investigate": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.08750000000000001,
+          "std": 0.0518411033833193,
+          "ci95": 0.05440390150198758
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s100_7ee1c8ba00f2c848"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s110_dadac10c68f38a77"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s120_95890f67deabc73c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s130_e86095581d8c9761"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s140_13c45f215ef863e0"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.1,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_s150_f4c2cc863532a87c"
+          }
+        ]
+      },
+      "no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.02916666666666667,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s100_075b6043e74dbe17"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s110_6efb403008f8dd48"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s120_867eea9468198c58"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s130_bbb05d7f3595662b"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s140_20495e73fe92cf23"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decoy_s150_4f5cf78f546c742b"
+          }
+        ]
+      },
+      "no_investigate_no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9708333333333333,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.09583333333333334,
+          "std": 0.06003471218109293,
+          "ci95": 0.0630025665937365
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s100_4bfb863df19bd8c1"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s110_bc3a48e8d111d850"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s120_f7389c08ec117fa6"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s130_9c7eaf346490df39"
+          },
+          {
+            "seed": 140,
+            "dr": 0.95,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 0.95,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s140_d6d85ef7a0c55106"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_investigate_no_decoy_s150_bb1ebaa8b1d4cb6b"
+          }
+        ]
+      }
+    },
+    "persistent_static": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s100_77745a5f55182aad"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s110_2ff6e9d1b89c1eaf"
+          },
+          {
+            "seed": 120,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s120_cc65b691e413040f"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s130_655b239dade2b837"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s140_f338a00bfe6e11fd"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_baseline_s150_fd1a4d3d393a5a33"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.016666666666666666,
+          "std": 0.020412414523193152,
+          "ci95": 0.02142151529696929
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s100_a318af66933ba679"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s110_68b96284b7ef38bc"
+          },
+          {
+            "seed": 120,
+            "dr": 0.925,
+            "asr": 0.05,
+            "engagement": 0.925,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s120_2152e9014ddf4f65"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s130_9e76b512e82e47c4"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s140_2dc1c5e815eebfe8"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_decay_off_s150_50bae26318707bfa"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9500000000000001,
+          "std": 0.03162277660168377,
+          "ci95": 0.03318606879827577
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.9736842105263158,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s100_7abcc1218ec957ae"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s110_f5a29b5bcfb57c93"
+          },
+          {
+            "seed": 120,
+            "dr": 0.9,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 0.972972972972973,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s120_7b23a17abfede171"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s130_23a777d12c3053c3"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s140_684de763cbb1a079"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_low_s150_856b4f5b1adb3e82"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9583333333333334,
+          "std": 0.020412414523193135,
+          "ci95": 0.021421515296969274
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s100_d6d3fd101794112f"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s110_0b4ab4445092272d"
+          },
+          {
+            "seed": 120,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s120_72dd12e615871dde"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s130_6d01ede7c972c8c8"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s140_d3b661db3f0bd3d1"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_high_s150_ead7c65ab6cd8485"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s100_e7108b6c2712dadb"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s110_4178151c778d6b9e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s120_21957b1df2cadca1"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s130_b9b9ee44a8dd2c46"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s140_4175cb3801e99abe"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decay_foothold_s150_64b4a973ee2d5428"
+          }
+        ]
+      },
+      "lambda_very_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9458333333333333,
+          "std": 0.02922612986125028,
+          "ci95": 0.030670942292624327
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.9736842105263158,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s100_791e3b57e2d8d245"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s110_2341c5374037e43f"
+          },
+          {
+            "seed": 120,
+            "dr": 0.9,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 0.972972972972973,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s120_20bd1988c993ec25"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s130_4de78b8851df217a"
+          },
+          {
+            "seed": 140,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 0.9743589743589743,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s140_231b41f6aa0ab263"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_lambda_very_low_s150_1e36c86ea17fea8e"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.3333333333333333,
+          "std": 0.054006172486732174,
+          "ci95": 0.05667600218194668
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.325,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s100_dae8d2a7c69dbcfa"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s110_f9eb7d93ac1a7ccc"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s120_31673527d628e6d1"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.3,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s130_141416ced0153d83"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s140_ac7135010b434ffb"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.275,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_stealth_pacing_s150_92b4334773bc66ef"
+          }
+        ]
+      },
+      "abandon_failed_hosts": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5166666666666667,
+          "std": 0.11796892246124258,
+          "ci95": 0.12380079163095388
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.051639777949432225,
+          "ci95": 0.054192623416448954
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.5208333333333334,
+          "std": 0.11556022960632548,
+          "ci95": 0.12127302350344107
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.375,
+            "asr": 0.125,
+            "engagement": 0.375,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s100_24d45e132b2ddfff"
+          },
+          {
+            "seed": 110,
+            "dr": 0.6,
+            "asr": 0.0,
+            "engagement": 0.6,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s110_f0ba7dd1668071b7"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.0,
+            "engagement": 0.525,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s120_530694f5e84e1cba"
+          },
+          {
+            "seed": 130,
+            "dr": 0.45,
+            "asr": 0.05,
+            "engagement": 0.475,
+            "dr_engaged": 0.9473684210526315,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s130_9f070685d655b2ce"
+          },
+          {
+            "seed": 140,
+            "dr": 0.7,
+            "asr": 0.0,
+            "engagement": 0.7,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s140_b92e09ecbafced13"
+          },
+          {
+            "seed": 150,
+            "dr": 0.45,
+            "asr": 0.075,
+            "engagement": 0.45,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_abandon_failed_hosts_s150_6ab7550eef034177"
+          }
+        ]
+      },
+      "no_investigate": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9208333333333334,
+          "std": 0.043060035609212705,
+          "ci95": 0.04518873602349801
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.9736842105263158,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s100_a2e9e91fb7775c9f"
+          },
+          {
+            "seed": 110,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 0.9487179487179487,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s110_edd9155befd6f153"
+          },
+          {
+            "seed": 120,
+            "dr": 0.9,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 0.972972972972973,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s120_bef6c254497f6b60"
+          },
+          {
+            "seed": 130,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.95,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s130_c153f2e96005f226"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s140_f83e6f8e3e3125e9"
+          },
+          {
+            "seed": 150,
+            "dr": 0.85,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.8947368421052632,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_s150_46259cce0ca59006"
+          }
+        ]
+      },
+      "no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9583333333333334,
+          "std": 0.03415650255319865,
+          "ci95": 0.03584505111352485
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s100_faa273667b3a78d0"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s110_2f5160631084881f"
+          },
+          {
+            "seed": 120,
+            "dr": 0.9,
+            "asr": 0.0,
+            "engagement": 0.925,
+            "dr_engaged": 0.972972972972973,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s120_f71ecb1ab569e712"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s130_3d294f719fc2c567"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s140_9bf66ed69fbb9f96"
+          },
+          {
+            "seed": 150,
+            "dr": 0.95,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_persistent_static_no_decoy_s150_a5cb7679fbdc6f51"
+          }
+        ]
+      },
+      "no_investigate_no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.8958333333333334,
+          "std": 0.03679900360969939,
+          "ci95": 0.03861818590067952
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.008333333333333333,
+          "std": 0.012909944487358056,
+          "ci95": 0.013548155854112238
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9625,
+          "std": 0.02622022120425378,
+          "ci95": 0.02751643461770032
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.9736842105263158,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s100_c63beb6585428bdd"
+          },
+          {
+            "seed": 110,
+            "dr": 0.925,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 0.9487179487179487,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s110_d131ba393adcfc6e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.9,
+            "asr": 0.025,
+            "engagement": 0.925,
+            "dr_engaged": 0.972972972972973,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s120_1525a48f8d96bf64"
+          },
+          {
+            "seed": 130,
+            "dr": 0.9,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.9,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s130_3f4377fcd1e4c9cf"
+          },
+          {
+            "seed": 140,
+            "dr": 0.9,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 0.9230769230769231,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s140_bf818e05379bf071"
+          },
+          {
+            "seed": 150,
+            "dr": 0.825,
+            "asr": 0.0,
+            "engagement": 0.95,
+            "dr_engaged": 0.868421052631579,
+            "run_dir": "runs/ablation/abl_persistent_static_no_investigate_no_decoy_s150_edd62cdf7c733b16"
+          }
+        ]
+      }
+    },
+    "static_adaptive": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.034156502553198666,
+          "ci95": 0.035845051113524866
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s100_ad34ca770f5219ae"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s110_dee6a0d4610751c6"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s120_54233d17ef77a96e"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s130_582bcccc3c8f1228"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s140_a44f90afb087a5cc"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_baseline_s150_b7a3e94b41cfe46b"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.13333333333333333,
+          "std": 0.06258327785172862,
+          "ci95": 0.06567712223911701
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s100_65127197621a4940"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s110_b3fdb74c18395137"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.15,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s120_7f153b9a4c0d12f6"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s130_7b1a20b8f2c3f9b9"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s140_22b3e3a9eaf2e011"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_decay_off_s150_ea0a807be253c61c"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9833333333333334,
+          "std": 0.02041241452319317,
+          "ci95": 0.02142151529696931
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.034156502553198666,
+          "ci95": 0.035845051113524866
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s100_15e801831fcbb478"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s110_a528a72139a56078"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s120_3af5bb7ede32aa1f"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s130_545ebe3b39c9014a"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s140_0fe44a2274d85332"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_low_s150_19aa2d3c55fc4c3e"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.0375,
+          "std": 0.020916500663351892,
+          "ci95": 0.021950521258029473
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s100_63c219f60cca3dc9"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s110_30d0dda291c34957"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s120_e43b91c0fc8a7eca"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s130_eeb4c377ce24e802"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s140_231a32951f5c6523"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_high_s150_dc6077442ed1adf6"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s100_1dca822efaed0ed5"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s110_19743edee1ce708e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s120_0b68deb9c9f43225"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s130_6fc1207498dbf153"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s140_e20c9ae47303d93f"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decay_foothold_s150_e92abc5a89acf739"
+          }
+        ]
+      },
+      "lambda_very_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.04583333333333334,
+          "std": 0.024579802006254377,
+          "ci95": 0.02579492024695016
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s100_7e7a7c73ed1a173e"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s110_46252e2ee2f193ad"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s120_df4f0dc9bdc4122f"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s130_f81edd629730b4a7"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s140_b4c9b40c6a209a06"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_lambda_very_low_s150_cab5f0854d3c9204"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.3625,
+          "std": 0.06846531968814577,
+          "ci95": 0.0718499465776124
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.4,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s100_df1113a970b5a236"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.325,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s110_b8f8e591361138fa"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.25,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s120_a61e6c543181bdc4"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.375,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s130_bef521b3a144a8f6"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.375,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s140_520cf3ca53b92dc9"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.45,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_stealth_pacing_s150_1dc407a03fbb931d"
+          }
+        ]
+      },
+      "abandon_failed_hosts": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.034156502553198666,
+          "ci95": 0.035845051113524866
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s100_8ad6d0616ca9f432"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s110_744e662095b43d3a"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s120_4070c20234e23de7"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s130_2ef086805a49abe1"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s140_3c52b363b22f8653"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_abandon_failed_hosts_s150_7a39684e896abe24"
+          }
+        ]
+      },
+      "no_investigate": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9833333333333334,
+          "std": 0.02041241452319317,
+          "ci95": 0.02142151529696931
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.08750000000000001,
+          "std": 0.03446012188022555,
+          "ci95": 0.03616368005626811
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s100_7d894b26193e535e"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s110_9e31781817ea6407"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.125,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s120_2a6ab53c1e2f9602"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s130_9792807e70edd06f"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s140_baeced484a96ea73"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_s150_a305f076323271ae"
+          }
+        ]
+      },
+      "no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.020412414523193152,
+          "ci95": 0.02142151529696929
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s100_3aed83cd497a5ba2"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s110_5d3912b9150fa21d"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s120_43e3a4d01327139c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s130_cceac5c02a3e4ddf"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s140_1eb87ddfe7544b76"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_decoy_s150_1b71d7844d94f335"
+          }
+        ]
+      },
+      "no_investigate_no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.975,
+          "std": 0.01581138830084191,
+          "ci95": 0.01659303439913791
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.09999999999999999,
+          "std": 0.035355339059327376,
+          "ci95": 0.037103152869464716
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s100_952de323228bfaa9"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s110_a415ffa47b8859ee"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s120_a343fceb957f11bc"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s130_87476da469797a76"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s140_60ab39da75ac23d4"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.1,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_adaptive_no_investigate_no_decoy_s150_09b8c5f70c654e53"
+          }
+        ]
+      }
+    },
+    "static_persistent": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.04583333333333334,
+          "std": 0.04306003560921271,
+          "ci95": 0.04518873602349802
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s100_22d9983e9467d135"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s110_efa30ca5feda3882"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s120_5e61f57d3b1efbaa"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s130_e908f71943f2e00e"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s140_8d3f558e9084b118"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_baseline_s150_ddf0294bb56c19fd"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.13749999999999998,
+          "std": 0.05863019699779287,
+          "ci95": 0.06152861830360638
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s100_6c509ca05f20e94f"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.225,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s110_223811b0d49994dd"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.15,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s120_81b19ce6ac2440d3"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s130_7236c06d9209dc89"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.175,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s140_d904ad6b3c54ce0a"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_decay_off_s150_9bebe2204398dcbf"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9833333333333334,
+          "std": 0.02041241452319317,
+          "ci95": 0.02142151529696931
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.07083333333333335,
+          "std": 0.03322900339562815,
+          "ci95": 0.03487170044159687
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s100_508d34b4742eba0c"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s110_232ef09151673c92"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.1,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s120_0496a15cae032e6c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s130_5a449e49562f554a"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s140_dea698fb6df2b64c"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_low_s150_35c96065cb2d578f"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.02916666666666667,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s100_052d1206a51ba6d6"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s110_c26dab2239e2580e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.025,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s120_b94cb0219fa1634f"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s130_d8d6b585ec001efd"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s140_8fa48e93e446f0ac"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_high_s150_f8bcb580aeaa19c1"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.03415650255319866,
+          "ci95": 0.035845051113524866
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s100_c654c56ae9cf9bda"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s110_1a38e663d5f061b7"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s120_e91c9b6bd95c413c"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s130_1759b83775350461"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s140_8ad8812961d2e9f0"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decay_foothold_s150_71b8f68c1225ea5b"
+          }
+        ]
+      },
+      "lambda_very_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.06666666666666667,
+          "std": 0.02041241452319315,
+          "ci95": 0.021421515296969288
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s100_aa6f226a89ef6a60"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s110_798b8875d7ef9a24"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.1,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s120_ef0377a9a65b2147"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s130_b5a845a318e36f3e"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s140_dff65ec9dc4c9f2a"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_lambda_very_low_s150_19ad8ef08b639a41"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.44166666666666665,
+          "std": 0.13102162671355697,
+          "ci95": 0.13749876467035446
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.2,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s100_5ec823ba54b366db"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.475,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s110_6bf4dc38c55bb247"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.45,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s120_204b288660f0f475"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.475,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s130_3a4b42b041b932d7"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.6,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s140_554ad23d00a87d45"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.45,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_stealth_pacing_s150_44c577e8cbe88781"
+          }
+        ]
+      },
+      "abandon_failed_hosts": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.04583333333333334,
+          "std": 0.04306003560921271,
+          "ci95": 0.04518873602349802
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s100_be326db1a7c26c26"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.0,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s110_f2b175f0e2df35a5"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.075,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s120_221b410f69bf6552"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s130_dcac34b38c18ed52"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s140_1c41c33a0a00c6b7"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_abandon_failed_hosts_s150_b004ddaae209453c"
+          }
+        ]
+      },
+      "no_investigate": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9791666666666666,
+          "std": 0.01881931631772704,
+          "ci95": 0.01974966126229882
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.09999999999999999,
+          "std": 0.03162277660168379,
+          "ci95": 0.03318606879827579
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.004166666666666667,
+          "std": 0.010206207261596576,
+          "ci95": 0.010710757648484646
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s100_35b3a46f97577b77"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s110_10ff6558c03e8615"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.1,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s120_e0bb7f22137b2d8b"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s130_4127cf8cac0d05c2"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.15,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s140_622d8701635b5725"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_s150_1f33dcc578e3fbda"
+          }
+        ]
+      },
+      "no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.05416666666666667,
+          "std": 0.03322900339562815,
+          "ci95": 0.03487170044159687
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s100_110ce6a9949f146a"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s110_c3927c9cb8991122"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s120_ad19dff1e332d6cd"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.05,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s130_4655d7fa7176cb85"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.1,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s140_f5d4dc019768cf0f"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.0,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_decoy_s150_72bd8d599f3fd125"
+          }
+        ]
+      },
+      "no_investigate_no_decoy": {
+        "dr": {
+          "n": 6,
+          "mean": 0.975,
+          "std": 0.01581138830084191,
+          "ci95": 0.01659303439913791
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.075,
+          "std": 0.041833001326703784,
+          "ci95": 0.04390104251605895
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "engagement": {
+          "n": 6,
+          "mean": 0.9874999999999999,
+          "std": 0.02091650066335191,
+          "ci95": 0.021950521258029494
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.025,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s100_c0fe64bb0b75bdea"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.075,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s110_6c2076279bedfe98"
+          },
+          {
+            "seed": 120,
+            "dr": 0.95,
+            "asr": 0.05,
+            "engagement": 0.95,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s120_bb1aac1f48d3997d"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s130_945fe35a4a9a0929"
+          },
+          {
+            "seed": 140,
+            "dr": 0.975,
+            "asr": 0.125,
+            "engagement": 1.0,
+            "dr_engaged": 0.975,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s140_a079742064165ee5"
+          },
+          {
+            "seed": 150,
+            "dr": 0.975,
+            "asr": 0.05,
+            "engagement": 0.975,
+            "dr_engaged": 1.0,
+            "run_dir": "runs/ablation/abl_static_persistent_no_investigate_no_decoy_s150_0ce355f4fcecd80b"
+          }
+        ]
+      }
+    }
+  }
+}

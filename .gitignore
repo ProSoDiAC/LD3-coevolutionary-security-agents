@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+GPU_NVIDIA*
+
+# Generated campaign YAMLs (rebuilt by scripts/campaign_2day.py)
+configs/campaign/generated/
+
+# Experiment outputs
+runs/
+!data/**
+*.log
+
+analysis_out/
+.run/
+.pytest_cache/
+.ruff_cache/
+*.png
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# uv lockfile
+uv.lock
+
+# stray scratch dir guard (do not commit repro smoke-test output here)
+$SP/
+
+# Internal review notes are not part of the public submission/reproduction repo.
+/.internal/
+
+# Manuscript submission bundle is maintained and submitted separately.
+/paper/

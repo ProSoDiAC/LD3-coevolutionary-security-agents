@@ -1,0 +1,2886 @@
+{
+  "results": {
+    "p0_smoke_hybrid": {
+      "job_id": "p0_smoke_hybrid",
+      "status": "ok",
+      "started_at": "2026-09-23T23:13:03Z",
+      "finished_at": "2026-09-23T23:14:18Z",
+      "elapsed_s": 75.03937101364136,
+      "run_dir": "runs/review/campaign/p0_smoke_hybrid_1490f7bf39b25f05",
+      "summary": {
+        "name": "p0_smoke_hybrid",
+        "episodes": 4,
+        "attack_success_rate": 0.25,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.41066892237415353,
+        "behavioral_novelty": 0.5,
+        "coalition_rate": 0.0,
+        "analysis_classification": "non_convergent",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 24.0,
+          "attacker_heuristic_steps": 43.0,
+          "attacker_gate_frac": 0.6417910447761194,
+          "attacker_gate_illegal": 5.0,
+          "attacker_gate_stall": 11.0,
+          "attacker_gate_progress": 27.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p0_smoke_hybrid_1490f7bf39b25f05"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s520": {
+      "job_id": "p1_hybrid_b3_static_s520",
+      "status": "ok",
+      "started_at": "2026-09-23T23:14:18Z",
+      "finished_at": "2026-09-23T23:48:05Z",
+      "elapsed_s": 2027.1034398078918,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s520_e549aaf21bb1fafa",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.6333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.2600585809391294,
+        "behavioral_novelty": 0.03333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 182.0,
+          "attacker_heuristic_steps": 298.0,
+          "attacker_gate_frac": 0.6208333333333333,
+          "attacker_gate_illegal": 179.0,
+          "attacker_gate_stall": 64.0,
+          "attacker_gate_progress": 55.0,
+          "defender_llm_steps": 480.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s520_e549aaf21bb1fafa"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s530": {
+      "job_id": "p1_hybrid_b3_static_s530",
+      "status": "ok",
+      "started_at": "2026-09-23T23:14:18Z",
+      "finished_at": "2026-09-23T23:49:24Z",
+      "elapsed_s": 2106.1985087394714,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s530_9a1fcb40b9eb20e9",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.5666666666666667,
+        "detection_rate": 0.9333333333333333,
+        "coevolutionary_pressure": 0.27319270055103534,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 166.0,
+          "attacker_heuristic_steps": 333.0,
+          "attacker_gate_frac": 0.6673346693386774,
+          "attacker_gate_illegal": 199.0,
+          "attacker_gate_stall": 62.0,
+          "attacker_gate_progress": 72.0,
+          "defender_llm_steps": 499.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s530_9a1fcb40b9eb20e9"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s540": {
+      "job_id": "p1_hybrid_b3_static_s540",
+      "status": "ok",
+      "started_at": "2026-09-23T23:48:05Z",
+      "finished_at": "2026-09-24T00:24:44Z",
+      "elapsed_s": 2199.21658039093,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s540_21c6034e8aca20d9",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.26666666666666666,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.21979196880809992,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 184.0,
+          "attacker_heuristic_steps": 337.0,
+          "attacker_gate_frac": 0.6468330134357005,
+          "attacker_gate_illegal": 182.0,
+          "attacker_gate_stall": 73.0,
+          "attacker_gate_progress": 82.0,
+          "defender_llm_steps": 521.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s540_21c6034e8aca20d9"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s550": {
+      "job_id": "p1_hybrid_b3_static_s550",
+      "status": "ok",
+      "started_at": "2026-09-23T23:49:24Z",
+      "finished_at": "2026-09-24T00:26:12Z",
+      "elapsed_s": 2208.0244295597076,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s550_995a6c8a4afa6455",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.26666666666666666,
+        "detection_rate": 0.8333333333333334,
+        "coevolutionary_pressure": 0.2563315966442542,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 179.0,
+          "attacker_heuristic_steps": 343.0,
+          "attacker_gate_frac": 0.657088122605364,
+          "attacker_gate_illegal": 197.0,
+          "attacker_gate_stall": 73.0,
+          "attacker_gate_progress": 73.0,
+          "defender_llm_steps": 522.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s550_995a6c8a4afa6455"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s570": {
+      "job_id": "p1_hybrid_b3_static_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T00:26:12Z",
+      "finished_at": "2026-09-24T01:01:47Z",
+      "elapsed_s": 2134.3230216503143,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s570_22060b674291f6dd",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.6666666666666666,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.21663747405050984,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 172.0,
+          "attacker_heuristic_steps": 307.0,
+          "attacker_gate_frac": 0.6409185803757829,
+          "attacker_gate_illegal": 173.0,
+          "attacker_gate_stall": 73.0,
+          "attacker_gate_progress": 61.0,
+          "defender_llm_steps": 479.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s570_22060b674291f6dd"
+      },
+      "error": null
+    },
+    "p1_hybrid_b3_static_s560": {
+      "job_id": "p1_hybrid_b3_static_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T00:24:44Z",
+      "finished_at": "2026-09-24T01:03:24Z",
+      "elapsed_s": 2319.456194162369,
+      "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s560_8a04262745e1a0a6",
+      "summary": {
+        "name": "p1_hybrid_b3_static_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.36666666666666664,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.2551228409118299,
+        "behavioral_novelty": 0.03333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 183.0,
+          "attacker_heuristic_steps": 335.0,
+          "attacker_gate_frac": 0.6467181467181468,
+          "attacker_gate_illegal": 196.0,
+          "attacker_gate_stall": 65.0,
+          "attacker_gate_progress": 74.0,
+          "defender_llm_steps": 518.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b3_static_s560_8a04262745e1a0a6"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s520": {
+      "job_id": "p1_hybrid_b4_episodic_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T01:01:47Z",
+      "finished_at": "2026-09-24T01:45:27Z",
+      "elapsed_s": 2619.956442117691,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s520_a8f6e481ab80e0a1",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.6333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.26634837909561504,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 287.0,
+          "attacker_heuristic_steps": 207.0,
+          "attacker_gate_frac": 0.4190283400809717,
+          "attacker_gate_illegal": 85.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 122.0,
+          "defender_llm_steps": 494.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s520_a8f6e481ab80e0a1"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s530": {
+      "job_id": "p1_hybrid_b4_episodic_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T01:03:24Z",
+      "finished_at": "2026-09-24T01:49:35Z",
+      "elapsed_s": 2771.1401965618134,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s530_51abd854b3d81c4f",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.3333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.2877584307422694,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "privilege_escalation",
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 267.0,
+          "attacker_heuristic_steps": 252.0,
+          "attacker_gate_frac": 0.48554913294797686,
+          "attacker_gate_illegal": 98.0,
+          "attacker_gate_stall": 3.0,
+          "attacker_gate_progress": 151.0,
+          "defender_llm_steps": 519.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s530_51abd854b3d81c4f"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s540": {
+      "job_id": "p1_hybrid_b4_episodic_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T01:45:27Z",
+      "finished_at": "2026-09-24T02:27:39Z",
+      "elapsed_s": 2532.714325428009,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s540_a84ee3a77891c13c",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.5,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.2999964411035436,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "privilege_escalation",
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 254.0,
+          "attacker_heuristic_steps": 244.0,
+          "attacker_gate_frac": 0.4899598393574297,
+          "attacker_gate_illegal": 97.0,
+          "attacker_gate_stall": 2.0,
+          "attacker_gate_progress": 145.0,
+          "defender_llm_steps": 498.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s540_a84ee3a77891c13c"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s550": {
+      "job_id": "p1_hybrid_b4_episodic_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T01:49:35Z",
+      "finished_at": "2026-09-24T02:32:24Z",
+      "elapsed_s": 2568.9854991436005,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s550_b5523bcabe9196a5",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.36666666666666664,
+        "detection_rate": 0.9,
+        "coevolutionary_pressure": 0.28255928068111197,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "privilege_escalation",
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 254.0,
+          "attacker_heuristic_steps": 254.0,
+          "attacker_gate_frac": 0.5,
+          "attacker_gate_illegal": 77.0,
+          "attacker_gate_stall": 3.0,
+          "attacker_gate_progress": 174.0,
+          "defender_llm_steps": 508.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s550_b5523bcabe9196a5"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s560": {
+      "job_id": "p1_hybrid_b4_episodic_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T02:27:39Z",
+      "finished_at": "2026-09-24T03:10:43Z",
+      "elapsed_s": 2583.9130589962006,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s560_44e254c99f86505e",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.26666666666666666,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.2800634647043239,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "privilege_escalation",
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 253.0,
+          "attacker_heuristic_steps": 265.0,
+          "attacker_gate_frac": 0.5115830115830116,
+          "attacker_gate_illegal": 102.0,
+          "attacker_gate_stall": 3.0,
+          "attacker_gate_progress": 160.0,
+          "defender_llm_steps": 518.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s560_44e254c99f86505e"
+      },
+      "error": null
+    },
+    "p1_hybrid_b4_episodic_s570": {
+      "job_id": "p1_hybrid_b4_episodic_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T02:32:24Z",
+      "finished_at": "2026-09-24T03:13:51Z",
+      "elapsed_s": 2486.5791461467743,
+      "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s570_0cc8af11de54efc7",
+      "summary": {
+        "name": "p1_hybrid_b4_episodic_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.5333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.26913432556023703,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "privilege_escalation",
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 268.0,
+          "attacker_heuristic_steps": 232.0,
+          "attacker_gate_frac": 0.464,
+          "attacker_gate_illegal": 102.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 130.0,
+          "defender_llm_steps": 500.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b4_episodic_s570_0cc8af11de54efc7"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s520": {
+      "job_id": "p1_hybrid_b5_persistent_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T03:10:43Z",
+      "finished_at": "2026-09-24T03:54:16Z",
+      "elapsed_s": 2612.598846435547,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s520_fba23c4240817e41",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.4,
+        "detection_rate": 0.9,
+        "coevolutionary_pressure": 0.2830627024793395,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "converging",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 207.0,
+          "attacker_heuristic_steps": 320.0,
+          "attacker_gate_frac": 0.6072106261859582,
+          "attacker_gate_illegal": 170.0,
+          "attacker_gate_stall": 15.0,
+          "attacker_gate_progress": 135.0,
+          "defender_llm_steps": 527.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s520_fba23c4240817e41"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s530": {
+      "job_id": "p1_hybrid_b5_persistent_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T03:13:51Z",
+      "finished_at": "2026-09-24T03:57:36Z",
+      "elapsed_s": 2624.951817035675,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s530_5a67375d3fdb87b9",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.13333333333333333,
+        "detection_rate": 0.9,
+        "coevolutionary_pressure": 0.24682412264935918,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "non_convergent",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "reconnaissance",
+          "privilege_escalation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 156.0,
+          "attacker_heuristic_steps": 379.0,
+          "attacker_gate_frac": 0.708411214953271,
+          "attacker_gate_illegal": 191.0,
+          "attacker_gate_stall": 16.0,
+          "attacker_gate_progress": 172.0,
+          "defender_llm_steps": 534.0,
+          "defender_heuristic_steps": 1.0,
+          "defender_gate_frac": 0.001869158878504673,
+          "defender_gate_illegal": 1.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s530_5a67375d3fdb87b9"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s540": {
+      "job_id": "p1_hybrid_b5_persistent_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T03:54:16Z",
+      "finished_at": "2026-09-24T04:32:01Z",
+      "elapsed_s": 2264.8475308418274,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s540_c71633c27db733b7",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.26666666666666666,
+        "detection_rate": 0.9333333333333333,
+        "coevolutionary_pressure": 0.3120345897460022,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "converging",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 187.0,
+          "attacker_heuristic_steps": 321.0,
+          "attacker_gate_frac": 0.6318897637795275,
+          "attacker_gate_illegal": 166.0,
+          "attacker_gate_stall": 22.0,
+          "attacker_gate_progress": 133.0,
+          "defender_llm_steps": 508.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s540_c71633c27db733b7"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s550": {
+      "job_id": "p1_hybrid_b5_persistent_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T03:57:36Z",
+      "finished_at": "2026-09-24T04:36:54Z",
+      "elapsed_s": 2358.18842959404,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s550_b22440bed22ca83b",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.16666666666666666,
+        "detection_rate": 0.8,
+        "coevolutionary_pressure": 0.25298067225773263,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "converging",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 172.0,
+          "attacker_heuristic_steps": 356.0,
+          "attacker_gate_frac": 0.6742424242424242,
+          "attacker_gate_illegal": 195.0,
+          "attacker_gate_stall": 22.0,
+          "attacker_gate_progress": 139.0,
+          "defender_llm_steps": 528.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s550_b22440bed22ca83b"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s560": {
+      "job_id": "p1_hybrid_b5_persistent_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T04:32:01Z",
+      "finished_at": "2026-09-24T05:11:57Z",
+      "elapsed_s": 2396.717684030533,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s560_bf120df1f333a8d2",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.2,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.22575963407109756,
+        "behavioral_novelty": 0.03333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "converging",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "reconnaissance"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 151.0,
+          "attacker_heuristic_steps": 379.0,
+          "attacker_gate_frac": 0.7150943396226415,
+          "attacker_gate_illegal": 191.0,
+          "attacker_gate_stall": 18.0,
+          "attacker_gate_progress": 170.0,
+          "defender_llm_steps": 530.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s560_bf120df1f333a8d2"
+      },
+      "error": null
+    },
+    "p1_hybrid_b5_persistent_s570": {
+      "job_id": "p1_hybrid_b5_persistent_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T04:36:54Z",
+      "finished_at": "2026-09-24T05:14:32Z",
+      "elapsed_s": 2257.915627002716,
+      "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s570_0bac60d6114e0996",
+      "summary": {
+        "name": "p1_hybrid_b5_persistent_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.4666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.2307882137149137,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 215.0,
+          "attacker_heuristic_steps": 285.0,
+          "attacker_gate_frac": 0.57,
+          "attacker_gate_illegal": 135.0,
+          "attacker_gate_stall": 13.0,
+          "attacker_gate_progress": 137.0,
+          "defender_llm_steps": 500.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1_hybrid_b5_persistent_s570_0bac60d6114e0996"
+      },
+      "error": null
+    },
+    "p7_cot_off_s520": {
+      "job_id": "p7_cot_off_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T05:11:57Z",
+      "finished_at": "2026-09-24T05:30:06Z",
+      "elapsed_s": 1088.777088880539,
+      "run_dir": "runs/review/campaign/p7_cot_off_s520_0ba40b3991fdeb15",
+      "summary": {
+        "name": "p7_cot_off_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4608134194481341,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 230.0,
+          "attacker_heuristic_steps": 305.0,
+          "attacker_gate_frac": 0.5700934579439252,
+          "attacker_gate_illegal": 47.0,
+          "attacker_gate_stall": 80.0,
+          "attacker_gate_progress": 178.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s520_0ba40b3991fdeb15"
+      },
+      "error": null
+    },
+    "p7_cot_off_s530": {
+      "job_id": "p7_cot_off_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T05:14:32Z",
+      "finished_at": "2026-09-24T05:32:24Z",
+      "elapsed_s": 1072.081625699997,
+      "run_dir": "runs/review/campaign/p7_cot_off_s530_56d72fb5a91eb6f1",
+      "summary": {
+        "name": "p7_cot_off_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.47422623239517525,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 231.0,
+          "attacker_heuristic_steps": 298.0,
+          "attacker_gate_frac": 0.5633270321361059,
+          "attacker_gate_illegal": 53.0,
+          "attacker_gate_stall": 80.0,
+          "attacker_gate_progress": 165.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s530_56d72fb5a91eb6f1"
+      },
+      "error": null
+    },
+    "p7_cot_off_s540": {
+      "job_id": "p7_cot_off_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T05:30:06Z",
+      "finished_at": "2026-09-24T05:49:21Z",
+      "elapsed_s": 1155.1089971065521,
+      "run_dir": "runs/review/campaign/p7_cot_off_s540_e97386b53aa1526d",
+      "summary": {
+        "name": "p7_cot_off_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.412169544544079,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 236.0,
+          "attacker_heuristic_steps": 299.0,
+          "attacker_gate_frac": 0.5588785046728972,
+          "attacker_gate_illegal": 54.0,
+          "attacker_gate_stall": 75.0,
+          "attacker_gate_progress": 170.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s540_e97386b53aa1526d"
+      },
+      "error": null
+    },
+    "p7_cot_off_s550": {
+      "job_id": "p7_cot_off_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T05:32:24Z",
+      "finished_at": "2026-09-24T05:51:48Z",
+      "elapsed_s": 1164.2030127048492,
+      "run_dir": "runs/review/campaign/p7_cot_off_s550_086fe422c296d35a",
+      "summary": {
+        "name": "p7_cot_off_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4842619629918866,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 263.0,
+          "attacker_heuristic_steps": 269.0,
+          "attacker_gate_frac": 0.5056390977443609,
+          "attacker_gate_illegal": 62.0,
+          "attacker_gate_stall": 52.0,
+          "attacker_gate_progress": 155.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s550_086fe422c296d35a"
+      },
+      "error": null
+    },
+    "p7_cot_off_s560": {
+      "job_id": "p7_cot_off_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T05:49:21Z",
+      "finished_at": "2026-09-24T06:09:39Z",
+      "elapsed_s": 1217.3315756320953,
+      "run_dir": "runs/review/campaign/p7_cot_off_s560_507035300f1b3864",
+      "summary": {
+        "name": "p7_cot_off_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.13333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3775772778425769,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 256.0,
+          "attacker_heuristic_steps": 269.0,
+          "attacker_gate_frac": 0.5123809523809524,
+          "attacker_gate_illegal": 62.0,
+          "attacker_gate_stall": 59.0,
+          "attacker_gate_progress": 148.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s560_507035300f1b3864"
+      },
+      "error": null
+    },
+    "p7_cot_off_s570": {
+      "job_id": "p7_cot_off_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T05:51:48Z",
+      "finished_at": "2026-09-24T06:13:24Z",
+      "elapsed_s": 1295.5371747016907,
+      "run_dir": "runs/review/campaign/p7_cot_off_s570_e1d0c43b751fbb26",
+      "summary": {
+        "name": "p7_cot_off_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.13333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3763457636745512,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 245.0,
+          "attacker_heuristic_steps": 289.0,
+          "attacker_gate_frac": 0.5411985018726592,
+          "attacker_gate_illegal": 33.0,
+          "attacker_gate_stall": 71.0,
+          "attacker_gate_progress": 185.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_off_s570_e1d0c43b751fbb26"
+      },
+      "error": null
+    },
+    "p7_cot_on_s520": {
+      "job_id": "p7_cot_on_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T06:09:39Z",
+      "finished_at": "2026-09-24T06:40:51Z",
+      "elapsed_s": 1871.9767169952393,
+      "run_dir": "runs/review/campaign/p7_cot_on_s520_1e798358e94b26a8",
+      "summary": {
+        "name": "p7_cot_on_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4555091056774929,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 237.0,
+          "attacker_heuristic_steps": 303.0,
+          "attacker_gate_frac": 0.5611111111111111,
+          "attacker_gate_illegal": 21.0,
+          "attacker_gate_stall": 116.0,
+          "attacker_gate_progress": 166.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s520_1e798358e94b26a8"
+      },
+      "error": null
+    },
+    "p7_cot_on_s530": {
+      "job_id": "p7_cot_on_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T06:13:24Z",
+      "finished_at": "2026-09-24T06:44:26Z",
+      "elapsed_s": 1862.8589596748352,
+      "run_dir": "runs/review/campaign/p7_cot_on_s530_3a989f66e0f9e274",
+      "summary": {
+        "name": "p7_cot_on_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4504517411160163,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 232.0,
+          "attacker_heuristic_steps": 302.0,
+          "attacker_gate_frac": 0.5655430711610487,
+          "attacker_gate_illegal": 6.0,
+          "attacker_gate_stall": 152.0,
+          "attacker_gate_progress": 144.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s530_3a989f66e0f9e274"
+      },
+      "error": null
+    },
+    "p7_cot_on_s540": {
+      "job_id": "p7_cot_on_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T06:40:51Z",
+      "finished_at": "2026-09-24T07:10:01Z",
+      "elapsed_s": 1750.6053881645203,
+      "run_dir": "runs/review/campaign/p7_cot_on_s540_d15e9dcd1208d055",
+      "summary": {
+        "name": "p7_cot_on_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4908055542923163,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 244.0,
+          "attacker_heuristic_steps": 289.0,
+          "attacker_gate_frac": 0.5422138836772983,
+          "attacker_gate_illegal": 16.0,
+          "attacker_gate_stall": 124.0,
+          "attacker_gate_progress": 149.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s540_d15e9dcd1208d055"
+      },
+      "error": null
+    },
+    "p7_cot_on_s550": {
+      "job_id": "p7_cot_on_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T06:44:26Z",
+      "finished_at": "2026-09-24T07:13:15Z",
+      "elapsed_s": 1728.8041486740112,
+      "run_dir": "runs/review/campaign/p7_cot_on_s550_f592152dcacc9031",
+      "summary": {
+        "name": "p7_cot_on_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4471230818101145,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 265.0,
+          "attacker_heuristic_steps": 265.0,
+          "attacker_gate_frac": 0.5,
+          "attacker_gate_illegal": 11.0,
+          "attacker_gate_stall": 122.0,
+          "attacker_gate_progress": 132.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s550_f592152dcacc9031"
+      },
+      "error": null
+    },
+    "p7_cot_on_s560": {
+      "job_id": "p7_cot_on_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T07:10:01Z",
+      "finished_at": "2026-09-24T07:39:04Z",
+      "elapsed_s": 1742.4578070640564,
+      "run_dir": "runs/review/campaign/p7_cot_on_s560_16f13acf7add36a3",
+      "summary": {
+        "name": "p7_cot_on_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.4267621071362099,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 242.0,
+          "attacker_heuristic_steps": 295.0,
+          "attacker_gate_frac": 0.5493482309124768,
+          "attacker_gate_illegal": 12.0,
+          "attacker_gate_stall": 140.0,
+          "attacker_gate_progress": 143.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s560_16f13acf7add36a3"
+      },
+      "error": null
+    },
+    "p2b_gate_only_b4_s520": {
+      "job_id": "p2b_gate_only_b4_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T07:39:04Z",
+      "finished_at": "2026-09-24T07:39:04Z",
+      "elapsed_s": 0.5996913909912109,
+      "run_dir": "runs/review/campaign/p2b_gate_only_b4_s520_9f043b79a0d5bd8a",
+      "summary": {
+        "name": "p2b_gate_only_b4_s520",
+        "episodes": 20,
+        "attack_success_rate": 0.0,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.46064880296235095,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation",
+          "decoy_deployment",
+          "deception"
+        ],
+        "run_dir": "runs/review/campaign/p2b_gate_only_b4_s520_9f043b79a0d5bd8a"
+      },
+      "error": null
+    },
+    "p2b_gate_only_b4_s540": {
+      "job_id": "p2b_gate_only_b4_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T07:39:04Z",
+      "finished_at": "2026-09-24T07:39:05Z",
+      "elapsed_s": 0.5979959964752197,
+      "run_dir": "runs/review/campaign/p2b_gate_only_b4_s540_96890c5c7da6f34a",
+      "summary": {
+        "name": "p2b_gate_only_b4_s540",
+        "episodes": 20,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.95,
+        "coevolutionary_pressure": 0.49876055391724894,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation",
+          "decoy_deployment",
+          "deception"
+        ],
+        "run_dir": "runs/review/campaign/p2b_gate_only_b4_s540_96890c5c7da6f34a"
+      },
+      "error": null
+    },
+    "p2b_gate_only_b4_s560": {
+      "job_id": "p2b_gate_only_b4_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T07:39:05Z",
+      "finished_at": "2026-09-24T07:39:06Z",
+      "elapsed_s": 0.6397662162780762,
+      "run_dir": "runs/review/campaign/p2b_gate_only_b4_s560_d685f9e1fbcb0289",
+      "summary": {
+        "name": "p2b_gate_only_b4_s560",
+        "episodes": 20,
+        "attack_success_rate": 0.0,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3885072861133322,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation",
+          "decoy_deployment",
+          "deception"
+        ],
+        "run_dir": "runs/review/campaign/p2b_gate_only_b4_s560_d685f9e1fbcb0289"
+      },
+      "error": null
+    },
+    "p7_cot_on_s570": {
+      "job_id": "p7_cot_on_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T07:13:15Z",
+      "finished_at": "2026-09-24T07:42:19Z",
+      "elapsed_s": 1744.0793883800507,
+      "run_dir": "runs/review/campaign/p7_cot_on_s570_e8e69f355f845706",
+      "summary": {
+        "name": "p7_cot_on_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3926570702537168,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 247.0,
+          "attacker_heuristic_steps": 293.0,
+          "attacker_gate_frac": 0.5425925925925926,
+          "attacker_gate_illegal": 12.0,
+          "attacker_gate_stall": 132.0,
+          "attacker_gate_progress": 149.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p7_cot_on_s570_e8e69f355f845706"
+      },
+      "error": null
+    },
+    "p2b_llm_only_b4_s520": {
+      "job_id": "p2b_llm_only_b4_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T07:39:06Z",
+      "finished_at": "2026-09-24T08:06:35Z",
+      "elapsed_s": 1649.4489324092865,
+      "run_dir": "runs/review/campaign/p2b_llm_only_b4_s520_55bc903a2c194d74",
+      "summary": {
+        "name": "p2b_llm_only_b4_s520",
+        "episodes": 20,
+        "attack_success_rate": 0.25,
+        "detection_rate": 0.8,
+        "coevolutionary_pressure": 0.1878844035669107,
+        "behavioral_novelty": 0.05,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "resource_targeting"
+        ],
+        "run_dir": "runs/review/campaign/p2b_llm_only_b4_s520_55bc903a2c194d74"
+      },
+      "error": null
+    },
+    "p2b_llm_only_b4_s540": {
+      "job_id": "p2b_llm_only_b4_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T07:42:19Z",
+      "finished_at": "2026-09-24T08:08:11Z",
+      "elapsed_s": 1551.903443813324,
+      "run_dir": "runs/review/campaign/p2b_llm_only_b4_s540_aeb17324505f10a4",
+      "summary": {
+        "name": "p2b_llm_only_b4_s540",
+        "episodes": 20,
+        "attack_success_rate": 0.3,
+        "detection_rate": 0.85,
+        "coevolutionary_pressure": 0.21898386765649364,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "resource_targeting"
+        ],
+        "run_dir": "runs/review/campaign/p2b_llm_only_b4_s540_aeb17324505f10a4"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s520": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T08:08:11Z",
+      "finished_at": "2026-09-24T08:26:51Z",
+      "elapsed_s": 1119.8454313278198,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s520_00c88cdeb2305dcf",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.31022500477478704,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 85.0,
+          "attacker_heuristic_steps": 454.0,
+          "attacker_gate_frac": 0.8423005565862709,
+          "attacker_gate_illegal": 155.0,
+          "attacker_gate_stall": 194.0,
+          "attacker_gate_progress": 105.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s520_00c88cdeb2305dcf"
+      },
+      "error": null
+    },
+    "p2b_llm_only_b4_s560": {
+      "job_id": "p2b_llm_only_b4_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T08:06:35Z",
+      "finished_at": "2026-09-24T08:28:58Z",
+      "elapsed_s": 1342.543568611145,
+      "run_dir": "runs/review/campaign/p2b_llm_only_b4_s560_a8e02ed988fd78ce",
+      "summary": {
+        "name": "p2b_llm_only_b4_s560",
+        "episodes": 20,
+        "attack_success_rate": 0.4,
+        "detection_rate": 0.9,
+        "coevolutionary_pressure": 0.2718963375273493,
+        "behavioral_novelty": 0.15,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "reconnaissance",
+          "privilege_escalation",
+          "resource_targeting",
+          "dynamic_isolation"
+        ],
+        "run_dir": "runs/review/campaign/p2b_llm_only_b4_s560_a8e02ed988fd78ce"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s530": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T08:26:51Z",
+      "finished_at": "2026-09-24T08:42:50Z",
+      "elapsed_s": 959.0916268825531,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s530_2bedf80cdc446d10",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.32974488461798884,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 97.0,
+          "attacker_heuristic_steps": 439.0,
+          "attacker_gate_frac": 0.8190298507462687,
+          "attacker_gate_illegal": 146.0,
+          "attacker_gate_stall": 188.0,
+          "attacker_gate_progress": 105.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s530_2bedf80cdc446d10"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s540": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T08:28:58Z",
+      "finished_at": "2026-09-24T08:44:43Z",
+      "elapsed_s": 945.7761898040771,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s540_e3191f161d7ed4b5",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.28569650553941484,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 72.0,
+          "attacker_heuristic_steps": 467.0,
+          "attacker_gate_frac": 0.8664192949907236,
+          "attacker_gate_illegal": 189.0,
+          "attacker_gate_stall": 213.0,
+          "attacker_gate_progress": 65.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s540_e3191f161d7ed4b5"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s550": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T08:42:50Z",
+      "finished_at": "2026-09-24T08:58:33Z",
+      "elapsed_s": 942.8350780010223,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s550_a277613d1adeab51",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.303239896194706,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 70.0,
+          "attacker_heuristic_steps": 470.0,
+          "attacker_gate_frac": 0.8703703703703703,
+          "attacker_gate_illegal": 180.0,
+          "attacker_gate_stall": 203.0,
+          "attacker_gate_progress": 87.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s550_a277613d1adeab51"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s560": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T08:44:43Z",
+      "finished_at": "2026-09-24T09:00:19Z",
+      "elapsed_s": 935.5463967323303,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s560_34587e6fd55d3e3a",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.3012249783030802,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 80.0,
+          "attacker_heuristic_steps": 458.0,
+          "attacker_gate_frac": 0.8513011152416357,
+          "attacker_gate_illegal": 184.0,
+          "attacker_gate_stall": 205.0,
+          "attacker_gate_progress": 69.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s560_34587e6fd55d3e3a"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b3_static_s570": {
+      "job_id": "p1b_hybatt_heurdef_b3_static_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T08:58:33Z",
+      "finished_at": "2026-09-24T09:16:59Z",
+      "elapsed_s": 1106.087021112442,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s570_e5a407d3331d53c5",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b3_static_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.22533156344122063,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 90.0,
+          "attacker_heuristic_steps": 448.0,
+          "attacker_gate_frac": 0.8327137546468402,
+          "attacker_gate_illegal": 155.0,
+          "attacker_gate_stall": 188.0,
+          "attacker_gate_progress": 105.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b3_static_s570_e5a407d3331d53c5"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s520": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T09:00:19Z",
+      "finished_at": "2026-09-24T09:19:44Z",
+      "elapsed_s": 1165.3820486068726,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s520_e1653535e7d15ab6",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.41427013132844065,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 265.0,
+          "attacker_heuristic_steps": 274.0,
+          "attacker_gate_frac": 0.5083487940630798,
+          "attacker_gate_illegal": 77.0,
+          "attacker_gate_stall": 39.0,
+          "attacker_gate_progress": 158.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s520_e1653535e7d15ab6"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s530": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T09:16:59Z",
+      "finished_at": "2026-09-24T09:44:19Z",
+      "elapsed_s": 1639.7908861637115,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s530_4aefbaf651762c28",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3998061401270328,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 237.0,
+          "attacker_heuristic_steps": 295.0,
+          "attacker_gate_frac": 0.5545112781954887,
+          "attacker_gate_illegal": 79.0,
+          "attacker_gate_stall": 46.0,
+          "attacker_gate_progress": 170.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s530_4aefbaf651762c28"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s540": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T09:19:44Z",
+      "finished_at": "2026-09-24T09:47:15Z",
+      "elapsed_s": 1650.9603378772736,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s540_b7fd925616e586a5",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.42928844778847813,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 227.0,
+          "attacker_heuristic_steps": 308.0,
+          "attacker_gate_frac": 0.5757009345794393,
+          "attacker_gate_illegal": 42.0,
+          "attacker_gate_stall": 76.0,
+          "attacker_gate_progress": 190.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s540_b7fd925616e586a5"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s550": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T09:44:19Z",
+      "finished_at": "2026-09-24T10:07:09Z",
+      "elapsed_s": 1370.5964362621307,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s550_dfbe3507d7062c5f",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.40896639907314736,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 208.0,
+          "attacker_heuristic_steps": 332.0,
+          "attacker_gate_frac": 0.6148148148148148,
+          "attacker_gate_illegal": 58.0,
+          "attacker_gate_stall": 84.0,
+          "attacker_gate_progress": 190.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s550_dfbe3507d7062c5f"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s560": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T09:47:15Z",
+      "finished_at": "2026-09-24T10:09:19Z",
+      "elapsed_s": 1323.2665376663208,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s560_2398777728c50208",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.13333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.397598471222575,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "decoy_deployment"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 242.0,
+          "attacker_heuristic_steps": 290.0,
+          "attacker_gate_frac": 0.5451127819548872,
+          "attacker_gate_illegal": 54.0,
+          "attacker_gate_stall": 65.0,
+          "attacker_gate_progress": 171.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s560_2398777728c50208"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b4_episodic_s570": {
+      "job_id": "p1b_hybatt_heurdef_b4_episodic_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T10:07:09Z",
+      "finished_at": "2026-09-24T10:26:12Z",
+      "elapsed_s": 1142.7501533031464,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s570_36d5a71c56839f44",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b4_episodic_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.3296224651281109,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "privilege_escalation",
+          "strategic_patience",
+          "delayed_attack",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 244.0,
+          "attacker_heuristic_steps": 287.0,
+          "attacker_gate_frac": 0.5404896421845574,
+          "attacker_gate_illegal": 73.0,
+          "attacker_gate_stall": 67.0,
+          "attacker_gate_progress": 147.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b4_episodic_s570_36d5a71c56839f44"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s520": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T10:09:19Z",
+      "finished_at": "2026-09-24T10:28:29Z",
+      "elapsed_s": 1150.3921897411346,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s520_c76172e4c3c86b36",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.3702680775622938,
+        "behavioral_novelty": 0.13333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 210.0,
+          "attacker_heuristic_steps": 328.0,
+          "attacker_gate_frac": 0.6096654275092936,
+          "attacker_gate_illegal": 63.0,
+          "attacker_gate_stall": 79.0,
+          "attacker_gate_progress": 186.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s520_c76172e4c3c86b36"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s530": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T10:26:12Z",
+      "finished_at": "2026-09-24T10:44:20Z",
+      "elapsed_s": 1087.5751459598541,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s530_4a7e2d18762c16fe",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.4627607335271075,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 187.0,
+          "attacker_heuristic_steps": 353.0,
+          "attacker_gate_frac": 0.6537037037037037,
+          "attacker_gate_illegal": 81.0,
+          "attacker_gate_stall": 70.0,
+          "attacker_gate_progress": 202.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s530_4a7e2d18762c16fe"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s540": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T10:28:29Z",
+      "finished_at": "2026-09-24T10:46:38Z",
+      "elapsed_s": 1088.861869096756,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s540_8bcd458e8b85d457",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.9333333333333333,
+        "coevolutionary_pressure": 0.41478795044356287,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 138.0,
+          "attacker_heuristic_steps": 402.0,
+          "attacker_gate_frac": 0.7444444444444445,
+          "attacker_gate_illegal": 126.0,
+          "attacker_gate_stall": 84.0,
+          "attacker_gate_progress": 192.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s540_8bcd458e8b85d457"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s550": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T10:44:20Z",
+      "finished_at": "2026-09-24T11:02:24Z",
+      "elapsed_s": 1083.8480820655823,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s550_4339c8d04a337efc",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9,
+        "coevolutionary_pressure": 0.3275273281782988,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "decoy_deployment"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 106.0,
+          "attacker_heuristic_steps": 433.0,
+          "attacker_gate_frac": 0.8033395176252319,
+          "attacker_gate_illegal": 131.0,
+          "attacker_gate_stall": 77.0,
+          "attacker_gate_progress": 225.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s550_4339c8d04a337efc"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s560": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T10:46:38Z",
+      "finished_at": "2026-09-24T11:04:29Z",
+      "elapsed_s": 1070.8574407100677,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s560_f51f998cae653c76",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.39910192503365777,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 155.0,
+          "attacker_heuristic_steps": 384.0,
+          "attacker_gate_frac": 0.712430426716141,
+          "attacker_gate_illegal": 66.0,
+          "attacker_gate_stall": 107.0,
+          "attacker_gate_progress": 211.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s560_f51f998cae653c76"
+      },
+      "error": null
+    },
+    "p1b_hybatt_heurdef_b5_persistent_s570": {
+      "job_id": "p1b_hybatt_heurdef_b5_persistent_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T11:02:24Z",
+      "finished_at": "2026-09-24T11:21:34Z",
+      "elapsed_s": 1150.1991257667542,
+      "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s570_a8b6390381f780d4",
+      "summary": {
+        "name": "p1b_hybatt_heurdef_b5_persistent_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.34082225339010236,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "reconnaissance",
+          "strategic_patience",
+          "delayed_attack",
+          "privilege_escalation",
+          "strategic_resource_allocation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 171.0,
+          "attacker_heuristic_steps": 369.0,
+          "attacker_gate_frac": 0.6833333333333333,
+          "attacker_gate_illegal": 60.0,
+          "attacker_gate_stall": 96.0,
+          "attacker_gate_progress": 213.0,
+          "defender_llm_steps": 0.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_hybatt_heurdef_b5_persistent_s570_a8b6390381f780d4"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s520": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T11:04:29Z",
+      "finished_at": "2026-09-24T11:24:50Z",
+      "elapsed_s": 1221.793804883957,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s520_3e12932c32974aef",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.09915377451656517,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "decoy_deployment",
+          "deception"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s520_3e12932c32974aef"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s530": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T11:21:34Z",
+      "finished_at": "2026-09-24T11:41:00Z",
+      "elapsed_s": 1166.0387246608734,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s530_5470d0e94d7411c2",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.0728483214990342,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "decoy_deployment",
+          "deception"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s530_5470d0e94d7411c2"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s540": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T11:24:50Z",
+      "finished_at": "2026-09-24T11:44:17Z",
+      "elapsed_s": 1166.3913090229034,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s540_b93e1c9c47b44238",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.06558626582173085,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "decoy_deployment",
+          "deception"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s540_b93e1c9c47b44238"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s550": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T11:41:00Z",
+      "finished_at": "2026-09-24T12:00:21Z",
+      "elapsed_s": 1161.4898986816406,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s550_83b338ee4c4731f7",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.085161405765747,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "decoy_deployment",
+          "deception"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s550_83b338ee4c4731f7"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s560": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T11:44:17Z",
+      "finished_at": "2026-09-24T12:03:39Z",
+      "elapsed_s": 1162.5532393455505,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s560_f68d00f1cc83506b",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.07123456551842072,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s560_f68d00f1cc83506b"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b3_static_s570": {
+      "job_id": "p1b_heuratt_hybdef_b3_static_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T12:00:21Z",
+      "finished_at": "2026-09-24T12:19:21Z",
+      "elapsed_s": 1139.2069919109344,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s570_c3c71a93e0551521",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b3_static_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.07117813407124683,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b3_static_s570_c3c71a93e0551521"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s520": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T12:03:39Z",
+      "finished_at": "2026-09-24T12:22:27Z",
+      "elapsed_s": 1127.5790748596191,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s520_48a81f94c3a19fd7",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.09969362721090283,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s520_48a81f94c3a19fd7"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s530": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T12:19:21Z",
+      "finished_at": "2026-09-24T12:42:43Z",
+      "elapsed_s": 1402.4363384246826,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s530_e1c1d976863cd6a8",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.06980044744219563,
+        "behavioral_novelty": 0.03333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s530_e1c1d976863cd6a8"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s540": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T12:22:27Z",
+      "finished_at": "2026-09-24T12:53:07Z",
+      "elapsed_s": 1839.8456230163574,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s540_77d1a01bf0a25164",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.06374062179915865,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s540_77d1a01bf0a25164"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s550": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T12:42:43Z",
+      "finished_at": "2026-09-24T13:37:33Z",
+      "elapsed_s": 3290.1926686763763,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s550_0bbfb432c3d22bc8",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.08099793237656999,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s550_0bbfb432c3d22bc8"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s560": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T12:53:07Z",
+      "finished_at": "2026-09-24T13:44:26Z",
+      "elapsed_s": 3078.6986339092255,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s560_f712a7b73d7a0fd4",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.07123456551842072,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s560_f712a7b73d7a0fd4"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b4_episodic_s570": {
+      "job_id": "p1b_heuratt_hybdef_b4_episodic_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T13:37:33Z",
+      "finished_at": "2026-09-24T14:17:55Z",
+      "elapsed_s": 2421.4680681228638,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s570_4a1add7273a1a823",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b4_episodic_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.07041521735663328,
+        "behavioral_novelty": 0.1,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack",
+          "dynamic_isolation"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b4_episodic_s570_4a1add7273a1a823"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s520": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s520",
+      "status": "ok",
+      "started_at": "2026-09-24T13:44:26Z",
+      "finished_at": "2026-09-24T14:24:56Z",
+      "elapsed_s": 2430.2349503040314,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s520_5db160e87c0be2b2",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s520",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.10869648614652708,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s520_5db160e87c0be2b2"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s530": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s530",
+      "status": "ok",
+      "started_at": "2026-09-24T14:17:55Z",
+      "finished_at": "2026-09-24T14:58:20Z",
+      "elapsed_s": 2425.548595428467,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s530_7445f24f58865866",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s530",
+        "episodes": 30,
+        "attack_success_rate": 0.0,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.07367729705588462,
+        "behavioral_novelty": 0.03333333333333333,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s530_7445f24f58865866"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s540": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s540",
+      "status": "ok",
+      "started_at": "2026-09-24T14:24:56Z",
+      "finished_at": "2026-09-24T15:04:37Z",
+      "elapsed_s": 2381.370055437088,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s540_d0cc7d27a8c64beb",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s540",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.8666666666666667,
+        "coevolutionary_pressure": 0.07131633298809316,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s540_d0cc7d27a8c64beb"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s550": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s550",
+      "status": "ok",
+      "started_at": "2026-09-24T14:58:20Z",
+      "finished_at": "2026-09-24T15:36:23Z",
+      "elapsed_s": 2283.2572162151337,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s550_a053db4be217235e",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s550",
+        "episodes": 30,
+        "attack_success_rate": 0.1,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.08943243155617027,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s550_a053db4be217235e"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s560": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s560",
+      "status": "ok",
+      "started_at": "2026-09-24T15:04:37Z",
+      "finished_at": "2026-09-24T15:43:16Z",
+      "elapsed_s": 2319.0527906417847,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s560_4310c3982b203cf3",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s560",
+        "episodes": 30,
+        "attack_success_rate": 0.03333333333333333,
+        "detection_rate": 0.9666666666666667,
+        "coevolutionary_pressure": 0.07686335831934457,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s560_4310c3982b203cf3"
+      },
+      "error": null
+    },
+    "p1b_heuratt_hybdef_b5_persistent_s570": {
+      "job_id": "p1b_heuratt_hybdef_b5_persistent_s570",
+      "status": "ok",
+      "started_at": "2026-09-24T15:36:23Z",
+      "finished_at": "2026-09-24T16:00:11Z",
+      "elapsed_s": 1427.648050069809,
+      "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s570_b703dfae538392a9",
+      "summary": {
+        "name": "p1b_heuratt_hybdef_b5_persistent_s570",
+        "episodes": 30,
+        "attack_success_rate": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "coevolutionary_pressure": 0.08025162440322665,
+        "behavioral_novelty": 0.06666666666666667,
+        "coalition_rate": 0.0,
+        "analysis_classification": "stable_equilibrium",
+        "top_emergent": [
+          "adaptive_monitoring",
+          "strategic_patience",
+          "delayed_attack"
+        ],
+        "hybrid_gate_stats": {
+          "attacker_llm_steps": 0.0,
+          "attacker_heuristic_steps": 0.0,
+          "attacker_gate_frac": 0.0,
+          "attacker_gate_illegal": 0.0,
+          "attacker_gate_stall": 0.0,
+          "attacker_gate_progress": 0.0,
+          "defender_llm_steps": 540.0,
+          "defender_heuristic_steps": 0.0,
+          "defender_gate_frac": 0.0,
+          "defender_gate_illegal": 0.0,
+          "defender_gate_stall": 0.0,
+          "defender_gate_progress": 0.0
+        },
+        "run_dir": "runs/review/campaign/p1b_heuratt_hybdef_b5_persistent_s570_b703dfae538392a9"
+      },
+      "error": null
+    }
+  },
+  "started_at": "2026-09-23T23:13:03Z",
+  "finished_at": "2026-09-24T16:00:11Z"
+}

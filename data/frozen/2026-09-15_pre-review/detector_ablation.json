@@ -1,0 +1,829 @@
+{
+  "seeds": [
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  ],
+  "episodes": 40,
+  "cells": {
+    "adaptive_static": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5583333333333333,
+          "std": 0.058452259722500614,
+          "ci95": 0.06134188458524871
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.06666666666666667,
+          "std": 0.012909944487358055,
+          "ci95": 0.013548155854112235
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.55,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s100_267c7b044d546a85"
+          },
+          {
+            "seed": 110,
+            "dr": 0.475,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s110_181ee23da32e944e"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s120_ed6d098b7a6883f3"
+          },
+          {
+            "seed": 130,
+            "dr": 0.575,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s130_cd107b707e70ebe6"
+          },
+          {
+            "seed": 140,
+            "dr": 0.575,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s140_3400b06d8e8f0de8"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_baseline_s150_b06ffc31379b4d11"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5625,
+          "std": 0.05863019699779288,
+          "ci95": 0.0615286183036064
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.09999999999999999,
+          "std": 0.0223606797749979,
+          "ci95": 0.02346609428818412
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.575,
+            "asr": 0.125,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s100_b09184ff003eeb03"
+          },
+          {
+            "seed": 110,
+            "dr": 0.475,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s110_475f32d957fd29c0"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.1,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s120_61251a4251470b0b"
+          },
+          {
+            "seed": 130,
+            "dr": 0.575,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s130_2b126b490bd49088"
+          },
+          {
+            "seed": 140,
+            "dr": 0.575,
+            "asr": 0.1,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s140_204e72b5c72cb42d"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.125,
+            "run_dir": "runs/ablation/abl_adaptive_static_decay_off_s150_b1617faadfa752f5"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5416666666666666,
+          "std": 0.0664580067912563,
+          "ci95": 0.06974340088319374
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.075,
+          "std": 0.0158113883008419,
+          "ci95": 0.0165930343991379
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.55,
+            "asr": 0.1,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s100_fa467a2a03829df1"
+          },
+          {
+            "seed": 110,
+            "dr": 0.45,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s110_16ff94aecb42945d"
+          },
+          {
+            "seed": 120,
+            "dr": 0.5,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s120_287f199f9046eaca"
+          },
+          {
+            "seed": 130,
+            "dr": 0.55,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s130_1fb76fe7fa7048e9"
+          },
+          {
+            "seed": 140,
+            "dr": 0.55,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s140_08d802f8ec1cf71e"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_low_s150_d1eb065597e75987"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5625,
+          "std": 0.05863019699779288,
+          "ci95": 0.0615286183036064
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.575,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s100_f2409bc6396b75b6"
+          },
+          {
+            "seed": 110,
+            "dr": 0.475,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s110_c02278d5c5450570"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s120_a9839b829ead2607"
+          },
+          {
+            "seed": 130,
+            "dr": 0.575,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s130_063c343a8fb31a95"
+          },
+          {
+            "seed": 140,
+            "dr": 0.575,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s140_9e3c53a7cbd452a2"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_lambda_high_s150_218761ab72ae3f6e"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5625,
+          "std": 0.05863019699779288,
+          "ci95": 0.0615286183036064
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.041666666666666664,
+          "std": 0.030276503540974917,
+          "ci95": 0.03177324186733605
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.575,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s100_53a3dc0936f750e6"
+          },
+          {
+            "seed": 110,
+            "dr": 0.475,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s110_dbb645d5e387f126"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s120_6fa0808fdee9c460"
+          },
+          {
+            "seed": 130,
+            "dr": 0.575,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s130_4385ce4daa457044"
+          },
+          {
+            "seed": 140,
+            "dr": 0.575,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s140_778790613e6db3d8"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_decay_foothold_s150_1bb84d81552a6299"
+          }
+        ]
+      },
+      "wait_cost_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5583333333333333,
+          "std": 0.058452259722500614,
+          "ci95": 0.06134188458524871
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.06666666666666667,
+          "std": 0.012909944487358055,
+          "ci95": 0.013548155854112235
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.55,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s100_6ac7b877a51f89e9"
+          },
+          {
+            "seed": 110,
+            "dr": 0.475,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s110_226ffc91aee560a7"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s120_f198e570c14e2add"
+          },
+          {
+            "seed": 130,
+            "dr": 0.575,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s130_8cb4bada2e72d70e"
+          },
+          {
+            "seed": 140,
+            "dr": 0.575,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s140_be0a2ba548fbc814"
+          },
+          {
+            "seed": 150,
+            "dr": 0.65,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_adaptive_static_wait_cost_high_s150_eeaa119ff32af817"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 0.5416666666666666,
+          "std": 0.056273143387113776,
+          "ci95": 0.059055042239414234
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.1708333333333333,
+          "std": 0.045871196481742954,
+          "ci95": 0.04813886843261235
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.55,
+            "asr": 0.25,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s100_fba4e94925b82a8a"
+          },
+          {
+            "seed": 110,
+            "dr": 0.45,
+            "asr": 0.2,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s110_ccc8d8cf9fa608cc"
+          },
+          {
+            "seed": 120,
+            "dr": 0.525,
+            "asr": 0.15,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s120_a46d23713e503c79"
+          },
+          {
+            "seed": 130,
+            "dr": 0.55,
+            "asr": 0.15,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s130_a4ae4417ae55780d"
+          },
+          {
+            "seed": 140,
+            "dr": 0.55,
+            "asr": 0.15,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s140_8d56223a92f07014"
+          },
+          {
+            "seed": 150,
+            "dr": 0.625,
+            "asr": 0.125,
+            "run_dir": "runs/ablation/abl_adaptive_static_no_stealth_pacing_s150_b63630f03c0ac585"
+          }
+        ]
+      }
+    },
+    "static_static": {
+      "baseline": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9833333333333334,
+          "std": 0.012909944487358068,
+          "ci95": 0.013548155854112252
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.04583333333333334,
+          "std": 0.018819316317727024,
+          "ci95": 0.019749661262298802
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s100_9336c2914ccec7d7"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s110_8eb30ba37ab16b2b"
+          },
+          {
+            "seed": 120,
+            "dr": 0.975,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s120_301e1cb07e109f4b"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s130_eedda64529b4fca4"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s140_00ea23b2d2f3e5fc"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_baseline_s150_6d53611b40ed9e1e"
+          }
+        ]
+      },
+      "decay_off": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.125,
+          "std": 0.0651920240520265,
+          "ci95": 0.06841483347715283
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.175,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s100_531f9d9b6ba9d1e1"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.225,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s110_08246514f34edc5e"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.1,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s120_6f598ef065a13e1b"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s130_d7a2686e28a51481"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.125,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s140_dab9dce7f1fc4712"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_decay_off_s150_b375ef2e2196f5ad"
+          }
+        ]
+      },
+      "lambda_low": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9916666666666667,
+          "std": 0.012909944487358068,
+          "ci95": 0.013548155854112252
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.020833333333333332,
+          "std": 0.018819316317727028,
+          "ci95": 0.019749661262298806
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s100_23a586a682ba25c8"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s110_bdd9de151c4e6a37"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s120_9bbc5385bdd62dc6"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s130_a7d830af7b4012c5"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s140_bbc502796d470716"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_low_s150_60c127db50f2ca85"
+          }
+        ]
+      },
+      "lambda_high": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.012500000000000002,
+          "std": 0.013693063937629153,
+          "ci95": 0.014369989315522478
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s100_610820d1742134ba"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s110_02d0157073f80924"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s120_2bfb0b058fc9ffad"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s130_ca56208df5626d1e"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s140_7849ff2c34cd6d4d"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_lambda_high_s150_f606bc74f2180c78"
+          }
+        ]
+      },
+      "no_decay_foothold": {
+        "dr": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.03333333333333333,
+          "std": 0.03415650255319866,
+          "ci95": 0.035845051113524866
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 1.0,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s100_9793d284ce11365a"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s110_e675a7f47c22f55a"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s120_abfd5c6f1dadb0f9"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s130_fdfde7cb1bd098f5"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s140_a70445e8b3ece7c1"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.0,
+            "run_dir": "runs/ablation/abl_static_static_no_decay_foothold_s150_ce4da16c883dee7a"
+          }
+        ]
+      },
+      "wait_cost_high": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9833333333333334,
+          "std": 0.012909944487358068,
+          "ci95": 0.013548155854112252
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.04583333333333334,
+          "std": 0.018819316317727024,
+          "ci95": 0.019749661262298802
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s100_ef53d3df109e905f"
+          },
+          {
+            "seed": 110,
+            "dr": 0.975,
+            "asr": 0.075,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s110_e19c71f6f58e907b"
+          },
+          {
+            "seed": 120,
+            "dr": 0.975,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s120_f265a22e837dc374"
+          },
+          {
+            "seed": 130,
+            "dr": 0.975,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s130_6fba78b6e5a31855"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.05,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s140_c2204d50802cb25e"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.025,
+            "run_dir": "runs/ablation/abl_static_static_wait_cost_high_s150_347d2d64b116b9be"
+          }
+        ]
+      },
+      "no_stealth_pacing": {
+        "dr": {
+          "n": 6,
+          "mean": 0.9958333333333332,
+          "std": 0.010206207261596585,
+          "ci95": 0.010710757648484654
+        },
+        "asr": {
+          "n": 6,
+          "mean": 0.2916666666666667,
+          "std": 0.11143009766964519,
+          "ci95": 0.11693871585161614
+        },
+        "asr_undetected": {
+          "n": 6,
+          "mean": 0.0,
+          "std": 0.0,
+          "ci95": 0.0
+        },
+        "runs": [
+          {
+            "seed": 100,
+            "dr": 0.975,
+            "asr": 0.275,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s100_601102fb609a9b4f"
+          },
+          {
+            "seed": 110,
+            "dr": 1.0,
+            "asr": 0.225,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s110_2d28d98cc015d75f"
+          },
+          {
+            "seed": 120,
+            "dr": 1.0,
+            "asr": 0.125,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s120_3b10dbd920b2fc10"
+          },
+          {
+            "seed": 130,
+            "dr": 1.0,
+            "asr": 0.325,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s130_04313c5a495de82f"
+          },
+          {
+            "seed": 140,
+            "dr": 1.0,
+            "asr": 0.35,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s140_9b0649888f0d49ef"
+          },
+          {
+            "seed": 150,
+            "dr": 1.0,
+            "asr": 0.45,
+            "run_dir": "runs/ablation/abl_static_static_no_stealth_pacing_s150_e7ad22749fe3ccb7"
+          }
+        ]
+      }
+    }
+  }
+}

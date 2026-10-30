@@ -1,0 +1,79 @@
+{
+  "seeds": [
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  ],
+  "episodes_per_seed": 8,
+  "gate_frac": {
+    "n": 6,
+    "mean_on": 0.4962728280818804,
+    "mean_off": 0.57803134805682,
+    "mean_diff": -0.08175851997493964,
+    "t": -3.1488691998146474,
+    "p": 0.025411265513472298,
+    "d_z": -1.2855204677186418
+  },
+  "asr": {
+    "n": 6,
+    "mean_on": 0.16666666666666666,
+    "mean_off": 0.14583333333333334,
+    "mean_diff": 0.020833333333333332,
+    "t": 0.41522739926869984,
+    "p": 0.6951922959317111,
+    "d_z": 0.1695158759052026
+  },
+  "raw": {
+    "s100": {
+      "on_gate_frac": 0.4225352112676056,
+      "off_gate_frac": 0.5985915492957746,
+      "on_asr": 0.125,
+      "off_asr": 0.125,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s100_5de17b31c944edc9",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s100_74755773a0aa1256"
+    },
+    "s110": {
+      "on_gate_frac": 0.48226950354609927,
+      "off_gate_frac": 0.5763888888888888,
+      "on_asr": 0.25,
+      "off_asr": 0.0,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s110_0dbc981be6a9e531",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s110_9b2a3f339bde58fb"
+    },
+    "s120": {
+      "on_gate_frac": 0.5323741007194245,
+      "off_gate_frac": 0.5319148936170213,
+      "on_asr": 0.25,
+      "off_asr": 0.25,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s120_4eaa4c57d1aae606",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s120_ec81a57f7b39d265"
+    },
+    "s130": {
+      "on_gate_frac": 0.5928571428571429,
+      "off_gate_frac": 0.6142857142857143,
+      "on_asr": 0.25,
+      "off_asr": 0.25,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s130_2cc09b0f6af4210b",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s130_432f240b1283d68b"
+    },
+    "s140": {
+      "on_gate_frac": 0.4930555555555556,
+      "off_gate_frac": 0.5845070422535211,
+      "on_asr": 0.0,
+      "off_asr": 0.125,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s140_f97fdd0c2c72bf12",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s140_17eb827a6637b0ad"
+    },
+    "s150": {
+      "on_gate_frac": 0.45454545454545453,
+      "off_gate_frac": 0.5625,
+      "on_asr": 0.125,
+      "off_asr": 0.125,
+      "on_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_on_s150_70135320d120b74d",
+      "off_run_dir": "/home/lucadag/LD3/runs/cot_pilot/cot_pilot_off_s150_dac70d0e486ab79d"
+    }
+  }
+}

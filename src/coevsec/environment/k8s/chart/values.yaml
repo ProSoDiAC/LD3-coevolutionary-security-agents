@@ -1,0 +1,17 @@
+# Number of service-layer hosts between the gateway and the data store.
+services: 3
+
+# Lightweight, offline-friendly image used for all decoy hosts. Every host is a
+# plain HTTP echo/no-op service - the "vulnerabilities" live in the simulator's
+# state machine, not in real exploitable software, keeping the range safe.
+image:
+  repository: registry.k8s.io/e2e-test-images/agnhost
+  tag: "2.47"
+
+resources:
+  requests:
+    cpu: 25m
+    memory: 32Mi
+  limits:
+    cpu: 100m
+    memory: 64Mi

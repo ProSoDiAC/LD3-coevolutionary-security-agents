@@ -1,0 +1,98 @@
+{
+  "DR static_static": {
+    "frozen": 0.9833333333333334,
+    "regenerated": 0.9874999999999999
+  },
+  "DR adaptive_static": {
+    "frozen": 0.5583333333333333,
+    "regenerated": 0.9874999999999999
+  },
+  "DR persistent_static": {
+    "frozen": 0.5541666666666667,
+    "regenerated": 0.9625
+  },
+  "DR static_adaptive": {
+    "frozen": 0.9874999999999999,
+    "regenerated": 0.9874999999999999
+  },
+  "H1 diff": {
+    "frozen": -0.425,
+    "regenerated": 0.0
+  },
+  "H1 p": {
+    "frozen": 4.733219791904367e-06,
+    "regenerated": 1.0
+  },
+  "H1' diff": {
+    "frozen": -0.4291666666666667,
+    "regenerated": -0.025000000000000005
+  },
+  "H1' p": {
+    "frozen": 4.989588314669622e-06,
+    "regenerated": 0.01172481100395467
+  },
+  "H2 diff": {
+    "frozen": 0.00416666666666667,
+    "regenerated": 0.0
+  },
+  "H2 p": {
+    "frozen": 0.3632174676491229,
+    "regenerated": 1.0
+  },
+  "C diff": {
+    "frozen": 0.05366116135927009,
+    "regenerated": 0.03287751475481309
+  },
+  "C p": {
+    "frozen": 0.09597651970633156,
+    "regenerated": 0.4133864493842376
+  },
+  "cross-play DR min": {
+    "frozen": 0.5333333333333333,
+    "regenerated": 0.9500000000000001
+  },
+  "cross-play DR max": {
+    "frozen": 1.0,
+    "regenerated": 0.9916666666666667
+  },
+  "ablation baseline: DR L1/L0": {
+    "frozen": 0.5583333333333333,
+    "regenerated": 0.9874999999999999
+  },
+  "ablation no_stealth_pacing: DR L1/L0": {
+    "frozen": 0.5416666666666666,
+    "regenerated": 1.0
+  },
+  "ASR B3": {
+    "frozen": 0.0,
+    "regenerated": 0.4611111111111111
+  },
+  "DR B3": {
+    "frozen": 0.9444444444444445,
+    "regenerated": 0.9444444444444445
+  },
+  "ASR B4": {
+    "frozen": 0.19999999999999998,
+    "regenerated": 0.4388888888888889
+  },
+  "DR B4": {
+    "frozen": 0.8555555555555556,
+    "regenerated": 0.9611111111111111
+  },
+  "ASR B5": {
+    "frozen": 0.06666666666666667,
+    "regenerated": 0.2722222222222222
+  },
+  "DR B5": {
+    "frozen": 0.47222222222222215,
+    "regenerated": 0.9
+  },
+  "CoT gate fraction diff (on - off)": {
+    "frozen": -0.08175851997493964,
+    "regenerated": 0.0015485571172711248
+  },
+  "CoT gate fraction p": {
+    "frozen": 0.025411265513472298,
+    "regenerated": 0.8472871717276642
+  }
+}
